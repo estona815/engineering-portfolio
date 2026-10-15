@@ -34,7 +34,8 @@ Python · TypeScript · React / Next.js · React Native · 데이터 검증 · �
 
 - [프로젝트별 사례 11개](docs/PROJECTS.md): 문제, 저장소 구현, 검증 범위, 한계와 고정 commit 링크
 - [공개 저장소 59개 목록](docs/PROJECTS.md): fork·빈 저장소를 별도 표시한 계정 이력
-- [로컬 프로젝트](docs/LOCAL_PROJECTS.md): 중복 worktree를 제외한 추가 소스 정리
+- [로컬 프로젝트](docs/LOCAL_PROJECTS.md): 16개 위치·2,120개 선택 소스 보관, 동일 제품 worktree는 별도 제품으로 집계하지 않음
+- [직무별 읽기](docs/ROLE_GUIDE.md) · [개발 저장소 타임라인](docs/TIMELINE.md)
 - [증거 기준·AI 사용·개인 기여](docs/EVIDENCE.md)
 - [기계 판독 가능한 공개 증거](evidence/public-claims.csv) · [재현 가능한 샘플 검증](docs/VALIDATION.md)
 

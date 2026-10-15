@@ -33,3 +33,7 @@ Logic 프로젝트 보관 전 비파괴 감사와 삭제 gate를 분리한 로�
 SOL AUDIO의 33개 작업 폴더는 동일 Git common directory로 연결된 worktree이며 하나의 프로젝트로 취급합니다. 기존 비공개 제품 소스를 공개로 전환하지 않았습니다.
 
 [개발 타임라인](TIMELINE.md) · [코드 샘플](../samples/README.md)
+
+## 추가 보관 범위
+
+REAPER Lua/ReaScript, mix/master 하네스, 오디오 복구 유틸리티, Logic MCP 서버, SOL AUDIO의 대표 작업 트리와 별도 로컬 프로토타입, 로컬 영상 엔진의 선택 소스도 비공개로 보관했습니다. 최종 선택 소스는 16개 위치·2,120개 파일이며 제품 수가 아닙니다. SOL AUDIO 복사본은 하나의 제품군으로 묶습니다. 모델·미디어·인증·Git 원문 이력은 복사하지 않았으며, 원본 저장소와 미커밋 변경은 보존했습니다.

@@ -1,5 +1,5 @@
 {
-  "scope": "all package files except this self-referential manifest and later Git metadata",
+  "scope": "all package files except this self-referential manifest and Git metadata",
   "files": [
     {
       "path": ".gitignore",
@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4133,
-      "sha256": "56e59d9649a97a01b1404ae8477c70157a1e655b61df222e23fd7e2477068f95"
+      "bytes": 4288,
+      "sha256": "c345c5e794bd9aa3bbfb9f0d04eb80e81f079b0d5961ea862c204beed407b3b8"
     },
     {
       "path": "case-studies/CANONLOOP.md",
@@ -88,8 +88,8 @@
     },
     {
       "path": "docs/LOCAL_PROJECTS.md",
-      "bytes": 2473,
-      "sha256": "f8e2f39b9c13423d73038d8313000ba44c059643999e85d1d55a49818b35e90a"
+      "bytes": 3020,
+      "sha256": "69fe1084d73ec69c14f358fe261bdbef385498b80dcc9980c78f1ec5fc29d854"
     },
     {
       "path": "docs/PROJECTS.md",
