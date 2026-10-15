@@ -1,0 +1,11 @@
+{
+  "name": "kwon-jun-engineering-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/*.test.mjs",
+    "test:python": "python3 -B -m unittest discover -s scripts -p 'test_*.py' -v",
+    "validate": "python3 -B scripts/validate_portfolio.py"
+  },
+  "engines": {"node": ">=22.18.0"}
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "project": "creatorops-studio",
+    "source_relative_path": "packages/policy-engine/src/index.ts",
+    "published_path": "samples/creatorops/publish-policy.ts",
+    "source_sha256": "192fe95b68d66ed16b90ecb46fd01219c251c195b9844d2a3228e122e0628a29",
+    "export_sha256": "192fe95b68d66ed16b90ecb46fd01219c251c195b9844d2a3228e122e0628a29",
+    "bytes": 2548,
+    "byte_identical": true
+  },
+  {
+    "project": "paper-risk-engine",
+    "source_relative_path": "src/tqg/risk/cost_model.py",
+    "published_path": "samples/paper-risk/cost_model.py",
+    "source_sha256": "2c8abdcafaac54c0596b01a6dc9f6c957a0cfc05268f69a97c0c5f151a97807b",
+    "export_sha256": "2c8abdcafaac54c0596b01a6dc9f6c957a0cfc05268f69a97c0c5f151a97807b",
+    "bytes": 4819,
+    "byte_identical": true
+  },
+  {
+    "project": "instatoon-studio",
+    "source_relative_path": "packages/core/src/project-id.ts",
+    "published_path": "samples/instatoon/project-id.ts",
+    "source_sha256": "ed7ceda7651b7e8c83b3b853b2f713372ba7769022708ce7aa5fae01e06817e1",
+    "export_sha256": "ed7ceda7651b7e8c83b3b853b2f713372ba7769022708ce7aa5fae01e06817e1",
+    "bytes": 1538,
+    "byte_identical": true
+  }
+]

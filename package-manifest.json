@@ -1,0 +1,175 @@
+{
+  "scope": "all package files except this self-referential manifest and later Git metadata",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 74,
+      "sha256": "c8ae0b5f68a8d5f0cdfb4e8efb1e6700d6309c9436ccbb15dd6cbf651135606c"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 474,
+      "sha256": "4bf44b2df7870b630569393dbb41ad4fc3d0ca7a79ecaff692d83847ff456581"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 1478,
+      "sha256": "db9ca317ca854d9a24deeee899d6b139e88fd8549cefca6705487624bd781b86"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4133,
+      "sha256": "56e59d9649a97a01b1404ae8477c70157a1e655b61df222e23fd7e2477068f95"
+    },
+    {
+      "path": "case-studies/CANONLOOP.md",
+      "bytes": 1272,
+      "sha256": "dcfd16930a9cf56bdf7462d34d978bc93a7b751a4f02ddff98aa31b449b992bf"
+    },
+    {
+      "path": "case-studies/abstainlab.md",
+      "bytes": 1376,
+      "sha256": "8f05bdc6f4bf531c82f08d21d8f3bcb65271a3fea377c7e39ee24f89f064f926"
+    },
+    {
+      "path": "case-studies/contextpatch-ai-datahub-2026.md",
+      "bytes": 1387,
+      "sha256": "b6189c6a28037bc1b611b56c945924f2e1b45ff4fc4e60ea0cfb6710d54e4940"
+    },
+    {
+      "path": "case-studies/focus-battery.md",
+      "bytes": 1251,
+      "sha256": "bef9886b0b20aaf5724eb449202269580e0c87a0454a5a947bae8ef63ed70eda"
+    },
+    {
+      "path": "case-studies/glyphcheck.md",
+      "bytes": 1333,
+      "sha256": "82e057f167f21daba7a5e4f901660bc8f732fb3987d3e7e033d9afa1c63e371d"
+    },
+    {
+      "path": "case-studies/q-flow-quantum-manufacturing-reframe.md",
+      "bytes": 1342,
+      "sha256": "e00a2d35b1df2d07d702dfc669f308f78c688bb5dd39560cf080d22ab8cb831f"
+    },
+    {
+      "path": "case-studies/soundmark-edge.md",
+      "bytes": 1371,
+      "sha256": "26520b35b924ad0279bac4dc2f313ac13d39debe5340b434d7845c751145f1c6"
+    },
+    {
+      "path": "case-studies/study-merge.md",
+      "bytes": 1197,
+      "sha256": "8cf30b991dc81d89b2ef11195c05d1f7186adc6a4a6f10027eee17534a04db93"
+    },
+    {
+      "path": "case-studies/ttareungi-monthly-audit-2026-koreashe95427.md",
+      "bytes": 1464,
+      "sha256": "8e6905d8a7e6208366de2168ea3440d55ed386f8fbf5790c3077a5ca8cd12a8d"
+    },
+    {
+      "path": "case-studies/tuberbot-market.md",
+      "bytes": 1575,
+      "sha256": "11552e83268cdedc2785fda05b2f7c045587a7fae18a24b640926092ee1c0ed9"
+    },
+    {
+      "path": "case-studies/voltscope-tracelab.md",
+      "bytes": 1325,
+      "sha256": "95284d77e2f3a7a0791dc4dbb667dc6e83a22d8d8ce01506d5d70e5323e0ffa3"
+    },
+    {
+      "path": "docs/ACHIEVEMENTS.md",
+      "bytes": 2520,
+      "sha256": "2d643caa7f1945e8ce94117125fb47c89669e2b7f625e8ada26867cdde77e2de"
+    },
+    {
+      "path": "docs/EVIDENCE.md",
+      "bytes": 2681,
+      "sha256": "09751d98a69cae6d9741d444f3be836ea3324649070832f1f2008fd69c90a723"
+    },
+    {
+      "path": "docs/LOCAL_PROJECTS.md",
+      "bytes": 2473,
+      "sha256": "f8e2f39b9c13423d73038d8313000ba44c059643999e85d1d55a49818b35e90a"
+    },
+    {
+      "path": "docs/PROJECTS.md",
+      "bytes": 17953,
+      "sha256": "8cce9c82e7bba624af18bff9e9ab68a83dfaf6149012dfb210954e59db7150f6"
+    },
+    {
+      "path": "docs/ROLE_GUIDE.md",
+      "bytes": 1636,
+      "sha256": "9964af1d22f5d6220bb0e15c0f9e12cf7ba495486873e0e653e03f5d325a9bd1"
+    },
+    {
+      "path": "docs/TIMELINE.md",
+      "bytes": 4757,
+      "sha256": "29dcb3b9944bb1416d524968569240c6758ac6d81e33e513ac4558d324737581"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 2680,
+      "sha256": "d8b4354ce0022e7155b3b5dfca46b09961adc45f7c794f78d2d6a6eeabf0a62d"
+    },
+    {
+      "path": "evidence/public-claims.csv",
+      "bytes": 158,
+      "sha256": "3fcd4cfded88891a2e82f9332d9b290ec5485425067eb5ea774cdca13f2b1f23"
+    },
+    {
+      "path": "evidence/repositories.json",
+      "bytes": 30580,
+      "sha256": "ca2548ac37fda37cdc7c6f063b290cd888d74b57ee266a1d12116220c4064d37"
+    },
+    {
+      "path": "evidence/validation.json",
+      "bytes": 782,
+      "sha256": "a64962e04e81c37fd6ddf9c943ed23291cd797cbc3a4cb1cc9591868eee7f094"
+    },
+    {
+      "path": "package.json",
+      "bytes": 330,
+      "sha256": "42c96a61636a77d6746b8a7bad00bbf53975c5ff6d3c06d7ed42eef1e2eaf6cc"
+    },
+    {
+      "path": "samples/README.md",
+      "bytes": 743,
+      "sha256": "3da76b1106c93289ef474406f0324fb7e2f50fbb4c8be611b82c051a82b13f01"
+    },
+    {
+      "path": "samples/creatorops/publish-policy.ts",
+      "bytes": 2548,
+      "sha256": "192fe95b68d66ed16b90ecb46fd01219c251c195b9844d2a3228e122e0628a29"
+    },
+    {
+      "path": "samples/instatoon/project-id.ts",
+      "bytes": 1538,
+      "sha256": "ed7ceda7651b7e8c83b3b853b2f713372ba7769022708ce7aa5fae01e06817e1"
+    },
+    {
+      "path": "samples/paper-risk/cost_model.py",
+      "bytes": 4819,
+      "sha256": "2c8abdcafaac54c0596b01a6dc9f6c957a0cfc05268f69a97c0c5f151a97807b"
+    },
+    {
+      "path": "samples/source-manifest.json",
+      "bytes": 1174,
+      "sha256": "f872b70b6290c52c4fcc2a915aceac416438b2671a332bf81430658ae8726c8b"
+    },
+    {
+      "path": "scripts/policy.test.mjs",
+      "bytes": 3211,
+      "sha256": "612f0ce604cc20c26073a715ba14b8d46196a7179ad8b4e4a1f390a341a011f5"
+    },
+    {
+      "path": "scripts/test_cost_model.py",
+      "bytes": 1992,
+      "sha256": "4cb1454683cfa2d368a6788883c43748242c4534f96122216299e93c3ef8882d"
+    },
+    {
+      "path": "scripts/validate_portfolio.py",
+      "bytes": 2442,
+      "sha256": "137d276a021762d0e7f2b9834b70a61255a1841ca02527b6a685fbe67637b147"
+    }
+  ]
+}
