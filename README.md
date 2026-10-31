@@ -4,7 +4,7 @@
 
 메카트로닉스 전공 · QA·테스트 · AI 업무자동화 · 장치·데이터 운영
 
-[GitHub](https://github.com/estona815) · [QA·자동화 이력서](docs/RESUME_QA_KO.md) · [로봇·데이터 운영 이력서](docs/RESUME_ROBOT_OPS_KO.md) · [수상·선정 근거](docs/ACHIEVEMENTS.md)
+[GitHub](https://github.com/estona815) · [QA·자동화 이력서](docs/RESUME_QA_KO.md) · [로봇·데이터 운영 이력서](docs/RESUME_ROBOT_OPS_KO.md) · [수상·선정·승인 근거](docs/ACHIEVEMENTS.md)
 
 한국폴리텍대학 서울정수캠퍼스 메카트로닉스과 전문학사 과정, **2027년 2월 졸업예정**입니다. 개인·학교 프로젝트에서 AI 도구와 협업해 구현하고, 입력·상태·오류·검토 기록을 연결하는 작업을 해왔습니다. 서울 근무와 졸업 전 조기취업이 가능하며 입사일은 협의합니다.
 
@@ -38,16 +38,25 @@ React·TypeScript·Vite 기반 여섯 개의 개인 시제품입니다. **FaultL
 
 [사례](case-studies/glyphcheck.md) · [소스](https://github.com/estona815/glyphcheck)
 
-## 수상과 별도 선정
+## 수상 · 파이널리스트
 
 | 구분 | 확인된 결과 |
 |---|---|
 | 수상 · 2026.10 | 수성 건축·조경 시각작품 국제 공모전 **일반 부문 장려상** |
 | 수상 · 2026.10 | Lucasverse Fanfiction Contest **1위**, 「Authorized Driver」 · [공식 발표](https://www.lucasflint.com/2026-lucasverse-fanfiction-contest-winner-authorized-driver-by-kwon-jun/) |
 | 수상 · 2026.08 | 코레일유통 대국민 아이디어 공모전 **수상** · 확인한 통지에 세부 등급 미기재 |
-| 선정 · 2026.09 | Build Beyond Hackathon · FitShadow **Top 20 Finalists** · [공개 결과](https://devpost.com/software/fitshadow-tolerance-ghost-lab) |
+| 파이널리스트 · 2026.09 | Build Beyond Hackathon · FitShadow **Top 20 Finalists** · [주최 측 Winner 표시](https://devpost.com/software/fitshadow-tolerance-ghost-lab) |
 
-[수상·선정 근거 및 표기 기준](docs/ACHIEVEMENTS.md). 창작·아이디어 수상을 개발 해커톤 우승으로 바꾸어 설명하지 않으며, 전원 참가 항목이나 접수 완료는 수상으로 세지 않습니다.
+## 심사선정 · 교육생 선발 · 플랫폼 승인
+
+| 구분 | 확인된 결과 |
+|---|---|
+| 준결승 선정 · 2026.10 | 1st North American AI Chinese Music Creation Contest · **Top 50 Global Creators** |
+| 심사 통과 · 2026.07 | K-AI 콘텐츠 공모전 트랙 B 솔루션 · **1차 심사 통과·2차 PT심사 대상 선정** |
+| 교육생 선발 · 2026.10 | SK주식회사(AX) **Pre-SKALA 교육생 선발 합격** · 수료·입사와 구분 |
+| 플랫폼 승인 · 2026.07 | 앱인토스 **「싸괄」 20260703-3 버전 승인** · 별도 출시·운영 실적과 구분 |
+
+[각 결과의 근거와 표기 범위](docs/ACHIEVEMENTS.md). 수상과 중간 심사 통과·교육생 선발·플랫폼 승인을 구분합니다. FitShadow는 주최 측이 prize로 통지한 파이널리스트 성과이며, 전원 참가 항목·접수 완료와 다릅니다. 창작·아이디어 수상을 개발 해커톤 전체 우승으로 바꾸어 설명하지 않습니다.
 
 ## 확장 프로젝트와 코드 표본
 
@@ -70,4 +79,4 @@ React·TypeScript·Vite 기반 여섯 개의 개인 시제품입니다. **FaultL
 - [기존 전체 공개 이력](docs/PROJECTS.md) · [개발 타임라인](docs/TIMELINE.md) · [로컬 프로젝트 기록](docs/LOCAL_PROJECTS.md)
 - [코드 샘플](samples/README.md) · [기존 공개 증거 CSV](evidence/public-claims.csv) · [English archive](README.en.md)
 
-**갱신 구분:** 2026-10-31에는 수상 통지·공식 발표·채용 문서·대표 사례를 대조해 정리했습니다. 기존 전체 목록, 소스 패키지 manifest, CSV와 과거 검증 자료는 2026-10-16 등의 당시 기록이며 현재 전수 재검증 결과가 아닙니다. 상용 사용자·매출·실결제·실물 성능은 새 증거 없이 추가하지 않았습니다. 개인 연락처·메일 원문·계약·인증정보는 공개하지 않습니다.
+**갱신 구분:** 2026-10-31 재대조본(v2)은 수상 통지·후속 결과·공식 발표·채용 문서를 정리한 것입니다. 기존 전체 목록, 소스 패키지 manifest, CSV와 과거 검증 자료는 2026-10-16 등의 당시 기록이며 현재 전수 재검증 결과가 아닙니다. 상용 사용자·매출·실결제·실물 성능은 새 증거 없이 추가하지 않았습니다. 개인 연락처·메일 원문·계약·인증정보는 공개하지 않습니다.
