@@ -1,82 +1,94 @@
 # 권준 · Kwon Jun
 
-### AI 도구로 시제품을 만들고, 동작과 검수 근거로 설명합니다.
+### QA·테스트 / AI 업무자동화 신입
 
-메카트로닉스 전공 · QA·테스트 · AI 업무자동화 · 장치·데이터 운영
+**오류가 생기는 조건을 재현하고, 원본과 결과를 연결하는 도구를 만듭니다.**
 
-[GitHub](https://github.com/estona815) · [QA·자동화 이력서](docs/RESUME_QA_KO.md) · [로봇·데이터 운영 이력서](docs/RESUME_ROBOT_OPS_KO.md) · [수상·선정·승인 근거](docs/ACHIEVEMENTS.md)
+메카트로닉스를 전공하며 웹 시제품과 장치 시뮬레이터를 제작했습니다. 입력 조건·상태·예외를 정리하고, AI 도구와 협업한 구현을 재현 절차와 검토 기록으로 설명합니다.
 
-한국폴리텍대학 서울정수캠퍼스 메카트로닉스과 전문학사 과정, **2027년 2월 졸업예정**입니다. 개인·학교 프로젝트에서 AI 도구와 협업해 구현하고, 입력·상태·오류·검토 기록을 연결하는 작업을 해왔습니다. 서울 근무와 졸업 전 조기취업이 가능하며 입사일은 협의합니다.
+한국폴리텍대학 서울정수캠퍼스 메카트로닉스과 · **2027년 2월 졸업예정**  
+서울 근무·졸업 전 조기취업 가능 · 입사일 협의
 
-## 채용 검토: 이 순서로 보세요
+**[이력서](docs/RESUME_QA_KO.md)** · [프로젝트 안내](docs/PROJECT_INDEX.md) · [수상·선정 근거](docs/ACHIEVEMENTS.md) · [English](README.en.md)
 
-| 지원 분야 | 먼저 볼 자료 | 확인할 내용 |
+## 먼저 볼 세 가지
+
+| 보여드릴 역량 | 프로젝트에서 확인할 동작 | 바로 보기 |
 |---|---|---|
-| QA·소프트웨어 테스트 | [Company Workbench](case-studies/company-workbench.md) → [GlyphCheck](case-studies/glyphcheck.md) | 결함·수정 비교, 경계값, 중복 보류, 편집 후 재검토 |
-| 로봇·장치 운영 / 데이터 검수 | [NUTRONICS](case-studies/nutronics.md) → [StockBridge](case-studies/company-workbench.md) | 정상·걸림·재시도, 로그, 제작 증빙, 원본 행 대조 |
-| AI Product / 업무자동화 | [Company Workbench](case-studies/company-workbench.md) → [ContextPatch](case-studies/contextpatch-ai-datahub-2026.md) | 요구사항·실행 조건·검증·승인·보고서의 연결 |
+| 결함 재현과 수정 확인 | 같은 입력으로 결함 함수와 수정 함수를 비교하고, 현재 관측한 실패를 보고서로 기록 | [Company Workbench](case-studies/company-workbench.md) |
+| 원본 대조와 수정 내용 보존 | OCR 원문·수정문·검토 상태를 연결하고, 새 OCR 요청 실패 시 이전 교정 유지 | [GlyphCheck](case-studies/glyphcheck.md) |
+| 장치의 상태와 예외 설명 | 정상 배출·걸림·재시도를 전환하며 상태와 이벤트 로그 확인 | [NUTRONICS](case-studies/nutronics.md) |
 
-**[직무별 상세 읽기](docs/ROLE_GUIDE.md)**에서 백엔드·ML·데이터·모바일 검토 경로도 확인할 수 있습니다.
+## 01 Company Workbench
+### 결함 재현과 CSV 재고 검수를 위한 웹 도구
 
-## 대표 프로젝트
+**개인 시제품 · React / TypeScript / Vite**
 
-### Company Workbench — 재현할 수 있는 업무 표본
+테스트 결과나 재고 차이만 보면 어떤 입력과 규칙에서 나온 결과인지 놓치기 쉽습니다. FaultLab은 결함과 수정 함수를 같은 조건에서 비교하고, StockBridge는 차이가 생긴 원본 CSV 행까지 연결합니다.
 
-React·TypeScript·Vite 기반 여섯 개의 개인 시제품입니다. **FaultLab**은 의도된 결함과 수정 함수를 동일 입력으로 비교하고, **StockBridge**는 CSV 재고 대조 결과를 원본 행까지 추적합니다. 특정 기업의 의뢰나 실무 경력으로 표시하지 않습니다.
+**핵심 판단:** 충돌하는 중복 행을 자동 합산하면 오류 원인이 가려질 수 있어 검토 대상으로 보류합니다. 입력이 바뀌면 이전 결과와 검토 상태도 다시 확인하도록 구성했습니다.
 
-[사례와 검증 범위](case-studies/company-workbench.md) · [소스](https://github.com/estona815/contextpatch-ai-datahub-2026/tree/portfolio/company-workbench-20260929/employer-workbench)
+**담당:** 문제 선정, AI 도구와 협업한 시제품 제작·검토, 재현 절차와 검증 자료 정리.
 
-### NUTRONICS — 장치의 동작과 예외를 보여주는 발표 웹
+**최근 확인:** 2026-11-03 기존 엔진·저장 경계 회귀 테스트 **112/112 통과**. [실행 근거](docs/VALIDATION.md)
 
-스마트 영양제 디스펜서 졸업 팀 프로젝트입니다. 웹·시뮬레이터·검증 자료·발표 준비를 담당했으며, 정상 배출·걸림·재시도 흐름과 이벤트 로그를 보여줍니다. 시뮬레이션과 실물 장치 시험의 결과를 구분합니다.
+[사례와 재현 절차](case-studies/company-workbench.md) · [소스와 테스트](https://github.com/estona815/contextpatch-ai-datahub-2026/tree/portfolio/company-workbench-20260929/employer-workbench)
 
-[사례](case-studies/nutronics.md) · [소스](https://github.com/estona815/smart-pill-sim-website) · [시뮬레이터](https://estona815.github.io/smart-pill-sim-website/website/simulator.html)
+## 02 GlyphCheck · 줄대조
+### 원본 이미지와 수정 내용을 연결하는 OCR 검수 도구
 
-### GlyphCheck · 줄대조 — 원본과 수정 결과를 함께 검토
+**개인 시제품 · Python / JavaScript / Tesseract.js**
 
-한·영 OCR 검수 시제품입니다. 원본 영역·인식문·수정문을 연결하고, 내용 변경 후 재검토하도록 하는 상태 관리와 결과 내보내기를 다룹니다.
+한·영 인쇄문 OCR 결과를 원본 영역과 함께 확인하고 수정합니다. 원문·수정문·원본 hash·검토 상태를 JSON에 남겨 결과의 출처를 추적할 수 있습니다.
 
-[사례](case-studies/glyphcheck.md) · [소스](https://github.com/estona815/glyphcheck)
+**핵심 판단:** 문장을 편집하면 이전 검토 완료 상태를 해제합니다. 새 OCR 요청이 실패했을 때는 사용자가 이미 수정한 내용을 유지합니다.
 
-## 수상 · 파이널리스트
+**제작 방식:** 개인 프로젝트이며 설계·구현·테스트·문서에 Codex를 활용했습니다. 기존 OCR 엔진을 통합한 검수 흐름이 중심입니다.
 
-| 구분 | 확인된 결과 |
+**최근 확인:** 2026-11-03 기존 프런트 논리 회귀 **13/13 통과**. [실행 범위](docs/VALIDATION.md)
+
+[사례와 검토 절차](case-studies/glyphcheck.md) · [소스](https://github.com/estona815/glyphcheck)
+
+## 03 NUTRONICS
+### 스마트 영양제 디스펜서의 동작·예외 시뮬레이터
+
+**졸업 팀 프로젝트 · HTML / CSS / JavaScript**
+
+팀이 제작한 장치의 동작을 발표 중 직접 비교할 수 있도록 웹과 시뮬레이터를 구성했습니다. 배출 대기열·현재 상태·이벤트 로그와 제작 자료를 연결합니다.
+
+**핵심 판단:** 정상 동작과 함께 걸림·재시도 흐름을 보여주어 장치가 어떤 상태인지 설명합니다.
+
+**담당:** 웹·시뮬레이터·검증 자료·발표 준비. 기구·회로·제어는 팀 역할에 따라 분담했습니다. 공개 시연은 발표용 시뮬레이션입니다.
+
+[시뮬레이터 열기](https://estona815.github.io/smart-pill-sim-website/website/simulator.html) · [사례](case-studies/nutronics.md) · [소스](https://github.com/estona815/smart-pill-sim-website)
+
+## 외부 평가와 수상
+
+| 분야 | 확인된 결과 |
 |---|---|
-| 수상 · 2026.10 | 수성 건축·조경 시각작품 국제 공모전 **일반 부문 장려상** |
-| 수상 · 2026.10 | Lucasverse Fanfiction Contest **1위**, 「Authorized Driver」 · [공식 발표](https://www.lucasflint.com/2026-lucasverse-fanfiction-contest-winner-authorized-driver-by-kwon-jun/) |
-| 수상 · 2026.08 | 코레일유통 대국민 아이디어 공모전 **수상** · 확인한 통지에 세부 등급 미기재 |
-| 파이널리스트 · 2026.09 | Build Beyond Hackathon · FitShadow **Top 20 Finalists** · [주최 측 Winner 표시](https://devpost.com/software/fitshadow-tolerance-ghost-lab) |
+| 개발 해커톤 | **Build Beyond Hackathon · FitShadow · Top 20 Finalists** |
+| 플랫폼 심사 | **앱인토스 「싸괄」 20260703-3 버전 승인** |
+| 아이디어 | **코레일유통 2026 대국민 아이디어 공모전 수상** |
+| 시각작품 | **2026 수성 건축·조경 시각작품 국제 공모전 일반 부문 장려상** |
+| 창작소설 | **2026 Lucasverse Fanfiction Contest 1위 · Authorized Driver** |
 
-## 심사선정 · 교육생 선발 · 플랫폼 승인
+[공식 발표·통지 근거와 전체 이력](docs/ACHIEVEMENTS.md)
 
-| 구분 | 확인된 결과 |
-|---|---|
-| 준결승 선정 · 2026.10 | 1st North American AI Chinese Music Creation Contest · **Top 50 Global Creators** |
-| 심사 통과 · 2026.07 | K-AI 콘텐츠 공모전 트랙 B 솔루션 · **1차 심사 통과·2차 PT심사 대상 선정** |
-| 교육생 선발 · 2026.10 | SK주식회사(AX) **Pre-SKALA 교육생 선발 합격** · 수료·입사와 구분 |
-| 플랫폼 승인 · 2026.07 | 앱인토스 **「싸괄」 20260703-3 버전 승인** · 별도 출시·운영 실적과 구분 |
+## 확인 자료
 
-[각 결과의 근거와 표기 범위](docs/ACHIEVEMENTS.md). 수상과 중간 심사 통과·교육생 선발·플랫폼 승인을 구분합니다. FitShadow는 주최 측이 prize로 통지한 파이널리스트 성과이며, 전원 참가 항목·접수 완료와 다릅니다. 창작·아이디어 수상을 개발 해커톤 전체 우승으로 바꾸어 설명하지 않습니다.
+프로젝트별 담당, AI 활용, 실행 환경과 검증 범위는 각 사례에 기재했습니다.
 
-## 확장 프로젝트와 코드 표본
+[검증 기록](docs/VALIDATION.md) · [AI 활용과 기여 기준](docs/EVIDENCE.md) · [장치·데이터 운영 이력서](docs/RESUME_ROBOT_OPS_KO.md)
 
-| 관심 분야 | 프로젝트 | 검토할 지점 |
-|---|---|---|
-| 제품·백엔드 | [TuberBot Market](case-studies/tuberbot-market.md) | 계약·복식부기 원장·outbox·멱등성·권한 |
-| Agent workflow | [ContextPatch AI](case-studies/contextpatch-ai-datahub-2026.md) | 제한된 패치·검증·승인·recorded replay |
-| Edge AI | [SOUNDMARK EDGE](case-studies/soundmark-edge.md) | Python/Kotlin 계약·INT8·few-shot·UNKNOWN 거절 |
-| ML 평가 | [AbstainLab](case-studies/abstainlab.md) | 그룹 분리·validation-only 선택·holdout 실패 공개 |
-| 데이터 분석 | [Seoul Bicycle Audit](case-studies/ttareungi-monthly-audit-2026-koreashe95427.md) | 모집단 통제·원본 hash·누락과 0 구분 |
-| 모바일 | [Focus Battery](case-studies/focus-battery.md) · [Study Merge](case-studies/study-merge.md) | 로컬 상태·도메인 분리·샘플 콘텐츠 경계 |
+<details>
+<summary>다른 프로젝트와 보관 자료</summary>
 
-[CreatorOps의 승인 정책](samples/creatorops/publish-policy.ts), [비용 계산 도메인](samples/paper-risk/cost_model.py), [INSTATOON의 프로젝트 식별자](samples/instatoon/project-id.ts)는 로컬 프로젝트에서 발췌한 코드입니다. 전체 소스 snapshot은 비공개로 보관하며 샘플은 완성된 배포 패키지가 아닙니다.
+- [직무별로 더 보기](docs/ROLE_GUIDE.md)
+- [프로젝트 안내와 공개 저장소 목록](docs/PROJECT_INDEX.md)
+- [ContextPatch AI](case-studies/contextpatch-ai-datahub-2026.md) · [TuberBot Market](case-studies/tuberbot-market.md) · [SOUNDMARK EDGE](case-studies/soundmark-edge.md)
+- [코드 표본](samples/README.md) · [기존 프로젝트 기록](docs/PROJECTS.md) · [개발 타임라인](docs/TIMELINE.md)
 
-## 증거를 읽는 기준
+</details>
 
-요구사항을 상태·데이터·권한·실패 조건으로 나누고, 작은 실행 경로와 검토 근거를 연결합니다. AI 도구 활용, 본인 담당, 저장소 구현, 실제 운영 성과를 각각 구분합니다. 저장소 관리 권한은 모든 코드의 단독 저작 증거가 아닙니다.
+문서 갱신: 2026-11-03
 
-- [AI 사용·개인 기여·증거 기준](docs/EVIDENCE.md) · [기존 검증 기록](docs/VALIDATION.md)
-- [기존 전체 공개 이력](docs/PROJECTS.md) · [개발 타임라인](docs/TIMELINE.md) · [로컬 프로젝트 기록](docs/LOCAL_PROJECTS.md)
-- [코드 샘플](samples/README.md) · [기존 공개 증거 CSV](evidence/public-claims.csv) · [English archive](README.en.md)
-
-**갱신 구분:** 2026-10-31 재대조본(v2)은 수상 통지·후속 결과·공식 발표·채용 문서를 정리한 것입니다. 기존 전체 목록, 소스 패키지 manifest, CSV와 과거 검증 자료는 2026-10-16 등의 당시 기록이며 현재 전수 재검증 결과가 아닙니다. 상용 사용자·매출·실결제·실물 성능은 새 증거 없이 추가하지 않았습니다. 개인 연락처·메일 원문·계약·인증정보는 공개하지 않습니다.

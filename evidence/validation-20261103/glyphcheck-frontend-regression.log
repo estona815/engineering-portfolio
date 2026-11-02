@@ -1,0 +1,16 @@
+SYNTHETIC LOGIC ONLY: Node VM + minimal DOM; no browser/network/model/user data/database.
+app.js SHA256 b4a825d2460372833abfc7714a5ec9c78163f4eb663da17807ef631db17069d4
+PASS decode failure preserves prior corrected/reviewed lines and image without POST
+PASS model HTTP failure preserves prior correction and reports actual synthetic error
+PASS invalid recognition payload preserves prior correction before commit
+PASS busy filters/threshold and re-rendered line controls remain disabled; events guarded
+PASS editing a reviewed line resets review without inventing corrected confidence
+PASS response body remains covered by timeout until JSON validation/commit completes
+PASS hanging JSON body receives actual AbortSignal and retains prior correction
+PASS hanging non-2xx error body also remains under timeout
+PASS successful empty OCR replaces old guide with no-text state and disables exports
+PASS stalled demo headers is aborted without losing previous corrections
+PASS stalled demo image-body is aborted without losing previous corrections
+PASS stalled demo error-body is aborted without losing previous corrections
+PASS successful demo clears download timer before independent OCR request
+RESULT 13/13 synthetic logic cases

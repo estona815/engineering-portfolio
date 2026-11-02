@@ -1,13 +1,32 @@
-# Kwon Jun · Engineering Portfolio
+# Kwon Jun
 
-AI-assisted product prototypes with inspectable source and scoped validation.
+### Junior Software QA and AI Workflow Automation
 
-Python, TypeScript, React/Next.js, React Native, local AI, data-quality tooling.
+**I build tools that make errors reproducible and keep results connected to their sources.**
 
-Start with [TuberBot Market](case-studies/tuberbot-market.md) for backend consistency, [ContextPatch](case-studies/contextpatch-ai-datahub-2026.md) for constrained agent replay, [SOUNDMARK EDGE](case-studies/soundmark-edge.md) for edge inference, and [AbstainLab](case-studies/abstainlab.md) for honest selective-classification evaluation.
+I study Mechatronics at Korea Polytechnics, Seoul Jeongsu Campus, with graduation expected in **February 2027**. My personal and school projects combine web prototypes, device simulation and AI-assisted implementation.
 
-[All public repositories](docs/PROJECTS.md) · [Code samples](samples/README.md) · [Evidence policy](docs/EVIDENCE.md) · [한국어](README.md)
+[한국어 포트폴리오](README.md) · [Resume in Korean](docs/RESUME_QA_KO.md) · [Project guide](docs/PROJECT_INDEX.md)
 
-Verified creative achievements: 2026 Lucasverse Fanfiction Contest first place for *Authorized Driver* ([organizer announcement](https://www.lucasflint.com/2026-lucasverse-fanfiction-contest-winner-authorized-driver-by-kwon-jun/)); 2026 Suseong Architecture and Landscape Visual Works International Competition, General Division encouragement award (individual organizer notice cross-checked with its masked public announcement). These are creative awards, not software hackathon wins.
+## Selected work
 
-Repository-level implementation, account-linked contribution, checked-in attestations and independently executed checks are separate evidence categories. AI assistance is disclosed. Ownership is not proof of sole authorship; production customers, revenue and unverified device benchmarks are not claimed.
+| Project | What to inspect | Contribution and scope |
+|---|---|---|
+| [Company Workbench](case-studies/company-workbench.md) | Defect/fix comparison with identical inputs; CSV reconciliation with conflicting duplicates held for review | Personal prototypes; problem selection, AI-assisted implementation and review, reproducibility documentation |
+| [GlyphCheck](case-studies/glyphcheck.md) | OCR source/edit traceability; review reset after editing; previous corrections preserved on request failure | Solo project with Codex assistance in design, implementation, tests and documentation |
+| [NUTRONICS](case-studies/nutronics.md) | Normal dispensing, jam and retry scenarios with state and event logs | Team graduation project; website, simulator, validation materials and presentation preparation |
+
+## External recognition
+
+- **Build Beyond Hackathon:** FitShadow, **Top 20 Finalists**.
+- **Apps in Toss:** approval of **싸괄 version 20260703-3**.
+- **KORAIL Retail 2026 Public Idea Competition:** award; the notice does not specify a prize tier.
+- **2026 Suseong Architecture and Landscape Visual Works International Competition:** Encouragement Award, General Division.
+- **2026 Lucasverse Fanfiction Contest:** **First Place**, *Authorized Driver*.
+
+[Evidence and exact scope](docs/ACHIEVEMENTS.md)
+
+The case studies describe individual responsibilities, AI assistance, code references and validation boundaries. [Validation](docs/VALIDATION.md) · [Contribution and AI use](docs/EVIDENCE.md)
+
+Updated 2026-11-03.
+

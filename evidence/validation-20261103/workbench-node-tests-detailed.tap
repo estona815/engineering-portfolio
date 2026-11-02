@@ -1,0 +1,682 @@
+TAP version 13
+# Subtest: complete brief is review-ready, with nine specific checks
+ok 1 - complete brief is review-ready, with nine specific checks
+  ---
+  duration_ms: 3.130691
+  type: 'test'
+  ...
+# Subtest: missing error outcome does not count as requirement coverage
+ok 2 - missing error outcome does not count as requirement coverage
+  ---
+  duration_ms: 0.74782
+  type: 'test'
+  ...
+# Subtest: unapproved write permission blocks readiness even if other fields pass
+ok 3 - unapproved write permission blocks readiness even if other fields pass
+  ---
+  duration_ms: 0.618996
+  type: 'test'
+  ...
+# Subtest: editing any input makes run and approval stale; stale export is labeled
+ok 4 - editing any input makes run and approval stale; stale export is labeled
+  ---
+  duration_ms: 0.596852
+  type: 'test'
+  ...
+# Subtest: duplicate requirement ids and dangling references are errors
+ok 5 - duplicate requirement ids and dangling references are errors
+  ---
+  duration_ms: 0.253533
+  type: 'test'
+  ...
+# Subtest: blank, negative, malformed and non-finite metrics fail; zero is valid
+ok 6 - blank, negative, malformed and non-finite metrics fail; zero is valid
+  ---
+  duration_ms: 0.212401
+  type: 'test'
+  ...
+# Subtest: saved state validator rejects malformed nested structures
+ok 7 - saved state validator rejects malformed nested structures
+  ---
+  duration_ms: 0.274284
+  type: 'test'
+  ...
+# Subtest: fixture scope: baseline fails and candidate passes bounded rules
+ok 8 - fixture scope: baseline fails and candidate passes bounded rules
+  ---
+  duration_ms: 2.460289
+  type: 'test'
+  ...
+# Subtest: fixture unavailable: baseline fails and candidate passes bounded rules
+ok 9 - fixture unavailable: baseline fails and candidate passes bounded rules
+  ---
+  duration_ms: 0.764486
+  type: 'test'
+  ...
+# Subtest: fixture approval: baseline fails and candidate passes bounded rules
+ok 10 - fixture approval: baseline fails and candidate passes bounded rules
+  ---
+  duration_ms: 0.586346
+  type: 'test'
+  ...
+# Subtest: fixture duplicate: baseline fails and candidate passes bounded rules
+ok 11 - fixture duplicate: baseline fails and candidate passes bounded rules
+  ---
+  duration_ms: 1.334718
+  type: 'test'
+  ...
+# Subtest: fixture stale: baseline fails and candidate passes bounded rules
+ok 12 - fixture stale: baseline fails and candidate passes bounded rules
+  ---
+  duration_ms: 0.460016
+  type: 'test'
+  ...
+# Subtest: fixture missing: baseline fails and candidate passes bounded rules
+ok 13 - fixture missing: baseline fails and candidate passes bounded rules
+  ---
+  duration_ms: 0.324039
+  type: 'test'
+  ...
+# Subtest: empty/malformed JSON cannot create pass results or measurements
+ok 14 - empty/malformed JSON cannot create pass results or measurements
+  ---
+  duration_ms: 0.447026
+  type: 'test'
+  ...
+# Subtest: empty events and unknown schemas are invalid
+ok 15 - empty events and unknown schemas are invalid
+  ---
+  duration_ms: 0.350119
+  type: 'test'
+  ...
+# Subtest: unknown fields and invalid args are rejected visibly
+ok 16 - unknown fields and invalid args are rejected visibly
+  ---
+  duration_ms: 0.342828
+  type: 'test'
+  ...
+# Subtest: nonfinite, negative time and duplicate event IDs are invalid
+ok 17 - nonfinite, negative time and duplicate event IDs are invalid
+  ---
+  duration_ms: 0.774661
+  type: 'test'
+  ...
+# Subtest: cross-user scope and unlisted tools are independently detected
+ok 18 - cross-user scope and unlisted tools are independently detected
+  ---
+  duration_ms: 0.385092
+  type: 'test'
+  ...
+# Subtest: missing, orphan and duplicated results fail pairing
+ok 19 - missing, orphan and duplicated results fail pairing
+  ---
+  duration_ms: 0.599486
+  type: 'test'
+  ...
+# Subtest: result before its call cannot supply success evidence
+ok 20 - result before its call cannot supply success evidence
+  ---
+  duration_ms: 0.585085
+  type: 'test'
+  ...
+# Subtest: time budget includes delay before the first event
+ok 21 - time budget includes delay before the first event
+  ---
+  duration_ms: 1.312143
+  type: 'test'
+  ...
+# Subtest: missing, unknown, stale and expired evidence fail
+ok 22 - missing, unknown, stale and expired evidence fail
+  ---
+  duration_ms: 0.920351
+  type: 'test'
+  ...
+# Subtest: failed result cannot manufacture completion evidence
+ok 23 - failed result cannot manufacture completion evidence
+  ---
+  duration_ms: 0.580718
+  type: 'test'
+  ...
+# Subtest: a recovered read within retry budget passes
+ok 24 - a recovered read within retry budget passes
+  ---
+  duration_ms: 0.793449
+  type: 'test'
+  ...
+# Subtest: unrelated operations are not counted as retries
+ok 25 - unrelated operations are not counted as retries
+  ---
+  duration_ms: 0.281795
+  type: 'test'
+  ...
+# Subtest: properly reported unavailable/refused scenarios can pass
+ok 26 - properly reported unavailable/refused scenarios can pass
+  ---
+  duration_ms: 0.514888
+  type: 'test'
+  ...
+# Subtest: duplicate proposed writes are distinguished from duplicate applied writes
+ok 27 - duplicate proposed writes are distinguished from duplicate applied writes
+  ---
+  duration_ms: 0.563471
+  type: 'test'
+  ...
+# Subtest: independent writes with different operation and keys are not collapsed
+ok 28 - independent writes with different operation and keys are not collapsed
+  ---
+  duration_ms: 0.345262
+  type: 'test'
+  ...
+# Subtest: same idempotency key cannot refer to changed payload
+ok 29 - same idempotency key cannot refer to changed payload
+  ---
+  duration_ms: 0.431723
+  type: 'test'
+  ...
+# Subtest: deduplicated resend under a new operation ID still links to prior applied request
+ok 30 - deduplicated resend under a new operation ID still links to prior applied request
+  ---
+  duration_ms: 0.353995
+  type: 'test'
+  ...
+# Subtest: excessively nested and cyclic data fail without a crash
+ok 31 - excessively nested and cyclic data fail without a crash
+  ---
+  duration_ms: 0.407957
+  type: 'test'
+  ...
+# Subtest: write with missing application state cannot claim verified idempotency
+ok 32 - write with missing application state cannot claim verified idempotency
+  ---
+  duration_ms: 0.490491
+  type: 'test'
+  ...
+# Subtest: approval must precede execution and cover exact current payload
+ok 33 - approval must precede execution and cover exact current payload
+  ---
+  duration_ms: 0.599326
+  type: 'test'
+  ...
+# Subtest: no events may follow a final answer, including its evidence
+ok 34 - no events may follow a final answer, including its evidence
+  ---
+  duration_ms: 0.575069
+  type: 'test'
+  ...
+# Subtest: comparison rejects missing pairs, duplicate keys and changed fixture version
+ok 35 - comparison rejects missing pairs, duplicate keys and changed fixture version
+  ---
+  duration_ms: 0.660818
+  type: 'test'
+  ...
+# Subtest: comparison rejects changed rules, changed scenario policy and wrong variants
+ok 36 - comparison rejects changed rules, changed scenario policy and wrong variants
+  ---
+  duration_ms: 0.515889
+  type: 'test'
+  ...
+# Subtest: comparison reports regression and exact introduced rules
+ok 37 - comparison reports regression and exact introduced rules
+  ---
+  duration_ms: 0.644164
+  type: 'test'
+  ...
+# Subtest: canonical input marker is key-order independent and export roundtrip deterministic
+ok 38 - canonical input marker is key-order independent and export roundtrip deterministic
+  ---
+  duration_ms: 0.844236
+  type: 'test'
+  ...
+# Subtest: every error maps to an event or explicit input error and no fake ratio is exposed
+ok 39 - every error maps to an event or explicit input error and no fake ratio is exposed
+  ---
+  duration_ms: 1.330151
+  type: 'test'
+  ...
+# Subtest: approval gate leaves ledger untouched; approved data is masked and dispatched once
+ok 40 - approval gate leaves ledger untouched; approved data is masked and dispatched once
+  ---
+  duration_ms: 1.221656
+  type: 'test'
+  ...
+# Subtest: changed request or workflow invalidates previous approval
+ok 41 - changed request or workflow invalidates previous approval
+  ---
+  duration_ms: 0.25794
+  type: 'test'
+  ...
+# Subtest: same key with different payload holds existing result
+ok 42 - same key with different payload holds existing result
+  ---
+  duration_ms: 0.197489
+  type: 'test'
+  ...
+# Subtest: replay cannot reuse unmasked internal output after the workflow changes to external masked delivery
+ok 43 - replay cannot reuse unmasked internal output after the workflow changes to external masked delivery
+  ---
+  duration_ms: 0.35731
+  type: 'test'
+  ...
+# Subtest: unsafe ordering and missing controls are blocked before any side effect
+ok 44 - unsafe ordering and missing controls are blocked before any side effect
+  ---
+  duration_ms: 0.761581
+  type: 'test'
+  ...
+# Subtest: validation handles invalid identifiers, missing equipment and timezone
+ok 45 - validation handles invalid identifiers, missing equipment and timezone
+  ---
+  duration_ms: 0.265351
+  type: 'test'
+  ...
+# Subtest: failure does not reserve a successful replay key and retry produces exactly one result
+ok 46 - failure does not reserve a successful replay key and retry produces exactly one result
+  ---
+  duration_ms: 0.282758
+  type: 'test'
+  ...
+# Subtest: estimate preserves negative costs and computes the independent workload arithmetic
+ok 47 - estimate preserves negative costs and computes the independent workload arithmetic
+  ---
+  duration_ms: 0.349919
+  type: 'test'
+  ...
+# Subtest: report captures current observed status and current assumptions, not a fixed success
+ok 48 - report captures current observed status and current assumptions, not a fixed success
+  ---
+  duration_ms: 0.169456
+  type: 'test'
+  ...
+# Subtest: saved valid module input survives restoration
+ok 49 - saved valid module input survives restoration
+  ---
+  duration_ms: 0.161534
+  type: 'test'
+  ...
+# Subtest: invalid JSON or invalid module schema restores the known example
+ok 50 - invalid JSON or invalid module schema restores the known example
+  ---
+  duration_ms: 0.09899
+  type: 'test'
+  ...
+# Subtest: valid-looking saved input with 8000-level extra data cannot reach recursive module code
+ok 51 - valid-looking saved input with 8000-level extra data cannot reach recursive module code
+  ---
+  duration_ms: 0.905859
+  type: 'test'
+  ...
+# Subtest: excessive saved node count and byte length restore without calling module validators
+ok 52 - excessive saved node count and byte length restore without calling module validators
+  ---
+  duration_ms: 0.623773
+  type: 'test'
+  ...
+# Subtest: seeded outcomes and separate-currency totals match hand-calculated values
+ok 53 - seeded outcomes and separate-currency totals match hand-calculated values
+  ---
+  duration_ms: 1.120303
+  type: 'test'
+  ...
+# Subtest: conflicting duplicate holds every row of that SKU-region key
+ok 54 - conflicting duplicate holds every row of that SKU-region key
+  ---
+  duration_ms: 0.446134
+  type: 'test'
+  ...
+# Subtest: a duplicate with an invalid value also holds the otherwise valid record
+ok 55 - a duplicate with an invalid value also holds the otherwise valid record
+  ---
+  duration_ms: 0.192851
+  type: 'test'
+  ...
+# Subtest: BOM, quoted commas, escaped quotes and multiline fields preserve raw values and line numbers
+ok 56 - BOM, quoted commas, escaped quotes and multiline fields preserve raw values and line numbers
+  ---
+  duration_ms: 0.219893
+  type: 'test'
+  ...
+# Subtest: bad CSV quote/headers/row width is explicit, never silently accepted
+ok 57 - bad CSV quote/headers/row width is explicit, never silently accepted
+  ---
+  duration_ms: 0.213553
+  type: 'test'
+  ...
+# Subtest: blank/negative/malformed quantities are rejected instead of coerced to zero
+ok 58 - blank/negative/malformed quantities are rejected instead of coerced to zero
+  ---
+  duration_ms: 0.287224
+  type: 'test'
+  ...
+# Subtest: unmapped or duplicated column connections block a run
+ok 59 - unmapped or duplicated column connections block a run
+  ---
+  duration_ms: 0.171599
+  type: 'test'
+  ...
+# Subtest: scope is SKU plus region, not SKU alone; currencies are never merged
+ok 60 - scope is SKU plus region, not SKU alone; currencies are never merged
+  ---
+  duration_ms: 0.300604
+  type: 'test'
+  ...
+# Subtest: approval binds exact CSV, mapping and run; a changed value invalidates it
+ok 61 - approval binds exact CSV, mapping and run; a changed value invalidates it
+  ---
+  duration_ms: 0.486265
+  type: 'test'
+  ...
+# Subtest: export preserves signed quantity, raw line reference and excluded nulls
+ok 62 - export preserves signed quantity, raw line reference and excluded nulls
+  ---
+  duration_ms: 0.383579
+  type: 'test'
+  ...
+# Subtest: currency precision and unsafe valuation are rejected
+ok 63 - currency precision and unsafe valuation are rejected
+  ---
+  duration_ms: 0.208355
+  type: 'test'
+  ...
+# Subtest: ten-thousand-row conflict keeps all evidence but bounds repeated group explanations
+ok 64 - ten-thousand-row conflict keeps all evidence but bounds repeated group explanations
+  ---
+  duration_ms: 38.757278
+  type: 'test'
+  ...
+# Subtest: wide headers and data rows are rejected before exposing mapping options
+ok 65 - wide headers and data rows are rejected before exposing mapping options
+  ---
+  duration_ms: 4.210183
+  type: 'test'
+  ...
+# Subtest: Windly fixture: launch-errors
+ok 66 - Windly fixture: launch-errors
+  ---
+  duration_ms: 2.579568
+  type: 'test'
+  ...
+# Subtest: Windly fixture: ready
+ok 67 - Windly fixture: ready
+  ---
+  duration_ms: 0.461708
+  type: 'test'
+  ...
+# Subtest: Windly fixture: tracking-version
+ok 68 - Windly fixture: tracking-version
+  ---
+  duration_ms: 0.341656
+  type: 'test'
+  ...
+# Subtest: Windly fixture: precise-micros
+ok 69 - Windly fixture: precise-micros
+  ---
+  duration_ms: 0.35738
+  type: 'test'
+  ...
+# Subtest: Windly fixture: precision-error
+ok 70 - Windly fixture: precision-error
+  ---
+  duration_ms: 0.370831
+  type: 'test'
+  ...
+# Subtest: Windly fixture: currency-mismatch
+ok 71 - Windly fixture: currency-mismatch
+  ---
+  duration_ms: 0.228064
+  type: 'test'
+  ...
+# Subtest: Windly fixture: utm-conflict
+ok 72 - Windly fixture: utm-conflict
+  ---
+  duration_ms: 0.184358
+  type: 'test'
+  ...
+# Subtest: Windly fixture: unsupported
+ok 73 - Windly fixture: unsupported
+  ---
+  duration_ms: 0.155315
+  type: 'test'
+  ...
+# Subtest: Windly fixture: date-error
+ok 74 - Windly fixture: date-error
+  ---
+  duration_ms: 0.234445
+  type: 'test'
+  ...
+# Subtest: Windly fixture: total-budget
+ok 75 - Windly fixture: total-budget
+  ---
+  duration_ms: 0.304781
+  type: 'test'
+  ...
+# Subtest: Windly fixture: invalid-schema
+ok 76 - Windly fixture: invalid-schema
+  ---
+  duration_ms: 0.131048
+  type: 'test'
+  ...
+# Subtest: exact micros conversion preserves fractional units and int64 boundary
+ok 77 - exact micros conversion preserves fractional units and int64 boundary
+  ---
+  duration_ms: 0.133682
+  type: 'test'
+  ...
+# Subtest: bad monetary representations never round or coerce into accepted budget
+ok 78 - bad monetary representations never round or coerce into accepted budget
+  ---
+  duration_ms: 0.096516
+  type: 'test'
+  ...
+# Subtest: numeric or NaN budgets fail runtime schema rather than silently lose precision
+ok 79 - numeric or NaN budgets fail runtime schema rather than silently lose precision
+  ---
+  duration_ms: 0.298061
+  type: 'test'
+  ...
+# Subtest: empty, arrays, null and unsupported schema cannot be green or produce requests
+ok 80 - empty, arrays, null and unsupported schema cannot be green or produce requests
+  ---
+  duration_ms: 0.162826
+  type: 'test'
+  ...
+# Subtest: unknown nested fields remain explicit errors instead of being ignored before approval
+ok 81 - unknown nested fields remain explicit errors instead of being ignored before approval
+  ---
+  duration_ms: 0.222466
+  type: 'test'
+  ...
+# Subtest: budget period requires its corresponding field and daily/total are exclusive
+ok 82 - budget period requires its corresponding field and daily/total are exclusive
+  ---
+  duration_ms: 0.464361
+  type: 'test'
+  ...
+# Subtest: request preview is validation-only, non-shared and contains precise string micros
+ok 83 - request preview is validation-only, non-shared and contains precise string micros
+  ---
+  duration_ms: 0.213753
+  type: 'test'
+  ...
+# Subtest: Google budget name uses UTF-8 bytes, not JS characters
+ok 84 - Google budget name uses UTF-8 bytes, not JS characters
+  ---
+  duration_ms: 0.533256
+  type: 'test'
+  ...
+# Subtest: real calendar and timezone equality are validated
+ok 85 - real calendar and timezone equality are validated
+  ---
+  duration_ms: 0.368637
+  type: 'test'
+  ...
+# Subtest: merge tracking preserves existing non-UTM query, fragments and encoded data
+ok 86 - merge tracking preserves existing non-UTM query, fragments and encoded data
+  ---
+  duration_ms: 0.254124
+  type: 'test'
+  ...
+# Subtest: conflicting or duplicated tracking never silently overwrites URL
+ok 87 - conflicting or duplicated tracking never silently overwrites URL
+  ---
+  duration_ms: 0.521989
+  type: 'test'
+  ...
+# Subtest: UTM required values may already exist in the URL
+ok 88 - UTM required values may already exist in the URL
+  ---
+  duration_ms: 0.169636
+  type: 'test'
+  ...
+# Subtest: unsupported platform discloses incomplete coverage and cannot be approved
+ok 89 - unsupported platform discloses incomplete coverage and cannot be approved
+  ---
+  duration_ms: 0.341687
+  type: 'test'
+  ...
+# Subtest: local approval survives key order only; money, URL, rule changes invalidate it
+ok 90 - local approval survives key order only; money, URL, rule changes invalidate it
+  ---
+  duration_ms: 1.320406
+  type: 'test'
+  ...
+# Subtest: invalid and stale approval records cannot become current
+ok 91 - invalid and stale approval records cannot become current
+  ---
+  duration_ms: 0.378632
+  type: 'test'
+  ...
+# Subtest: version comparison tests same input and exposes only newly-required campaign key
+ok 92 - version comparison tests same input and exposes only newly-required campaign key
+  ---
+  duration_ms: 0.360996
+  type: 'test'
+  ...
+# Subtest: explicit repair sequence resolves initial fixture without silently changing chosen daily amount
+ok 93 - explicit repair sequence resolves initial fixture without silently changing chosen daily amount
+  ---
+  duration_ms: 1.927684
+  type: 'test'
+  ...
+# Subtest: exports can roundtrip current source and deterministic results
+ok 94 - exports can roundtrip current source and deterministic results
+  ---
+  duration_ms: 0.314625
+  type: 'test'
+  ...
+# Subtest: 8,000-level 16KB JSON cannot crash validation or rendering of error observations
+ok 95 - 8,000-level 16KB JSON cannot crash validation or rendering of error observations
+  ---
+  duration_ms: 0.928203
+  type: 'test'
+  ...
+# Subtest: deep extra data also prevents cloning, repairing or approving an otherwise valid campaign
+ok 96 - deep extra data also prevents cloning, repairing or approving an otherwise valid campaign
+  ---
+  duration_ms: 3.199686
+  type: 'test'
+  ...
+# Subtest: wide and cyclic inputs terminate with serializable bounded failure reports
+ok 97 - wide and cyclic inputs terminate with serializable bounded failure reports
+  ---
+  duration_ms: 0.653908
+  type: 'test'
+  ...
+# Subtest: schema failures below the depth limit summarize observed containers instead of echoing them
+ok 98 - schema failures below the depth limit summarize observed containers instead of echoing them
+  ---
+  duration_ms: 0.111258
+  type: 'test'
+  ...
+# Subtest: quantity: real seeded faulty operation fails while the same oracle accepts fixed implementation
+ok 99 - quantity: real seeded faulty operation fails while the same oracle accepts fixed implementation
+  ---
+  duration_ms: 0.574168
+  type: 'test'
+  ...
+# Subtest: discount: real seeded faulty operation fails while the same oracle accepts fixed implementation
+ok 100 - discount: real seeded faulty operation fails while the same oracle accepts fixed implementation
+  ---
+  duration_ms: 0.14581
+  type: 'test'
+  ...
+# Subtest: duplicate: real seeded faulty operation fails while the same oracle accepts fixed implementation
+ok 101 - duplicate: real seeded faulty operation fails while the same oracle accepts fixed implementation
+  ---
+  duration_ms: 0.249837
+  type: 'test'
+  ...
+# Subtest: expiry: real seeded faulty operation fails while the same oracle accepts fixed implementation
+ok 102 - expiry: real seeded faulty operation fails while the same oracle accepts fixed implementation
+  ---
+  duration_ms: 0.243859
+  type: 'test'
+  ...
+# Subtest: stale: real seeded faulty operation fails while the same oracle accepts fixed implementation
+ok 103 - stale: real seeded faulty operation fails while the same oracle accepts fixed implementation
+  ---
+  duration_ms: 0.275506
+  type: 'test'
+  ...
+# Subtest: refund: real seeded faulty operation fails while the same oracle accepts fixed implementation
+ok 104 - refund: real seeded faulty operation fails while the same oracle accepts fixed implementation
+  ---
+  duration_ms: 0.143097
+  type: 'test'
+  ...
+# Subtest: quantity rejects zero, negative, fractional and oversold requests without side effects
+ok 105 - quantity rejects zero, negative, fractional and oversold requests without side effects
+  ---
+  duration_ms: 0.089436
+  type: 'test'
+  ...
+# Subtest: discount exact boundary and valid values do not invent a failure
+ok 106 - discount exact boundary and valid values do not invent a failure
+  ---
+  duration_ms: 0.107793
+  type: 'test'
+  ...
+# Subtest: same request key with changed payload conflicts and retains a single stock decrement
+ok 107 - same request key with changed payload conflicts and retains a single stock decrement
+  ---
+  duration_ms: 0.143076
+  type: 'test'
+  ...
+# Subtest: expiry -1ms, exact instant and +1ms use a fixed clock and exclusive expiry
+ok 108 - expiry -1ms, exact instant and +1ms use a fixed clock and exclusive expiry
+  ---
+  duration_ms: 0.30448
+  type: 'test'
+  ...
+# Subtest: search reordering exposes stale overwrite, ordinary ordering correctly passes
+ok 109 - search reordering exposes stale overwrite, ordinary ordering correctly passes
+  ---
+  duration_ms: 0.163928
+  type: 'test'
+  ...
+# Subtest: unpaid and repeated refund must not create money or inventory
+ok 110 - unpaid and repeated refund must not create money or inventory
+  ---
+  duration_ms: 0.112941
+  type: 'test'
+  ...
+# Subtest: invalid harness inputs produce no claimed pass/fail and no report
+ok 111 - invalid harness inputs produce no claimed pass/fail and no report
+  ---
+  duration_ms: 0.629821
+  type: 'test'
+  ...
+# Subtest: report uses actual failed run and cannot label a passing case a defect
+ok 112 - report uses actual failed run and cannot label a passing case a defect
+  ---
+  duration_ms: 0.265181
+  type: 'test'
+  ...
+1..112
+# tests 112
+# suites 0
+# pass 112
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 194.258921

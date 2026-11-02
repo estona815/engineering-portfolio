@@ -1,0 +1,631 @@
+{
+  "checked_at_kst": "2026-11-03",
+  "owner": "estona815",
+  "public_repository_count": 78,
+  "repositories": [
+    {
+      "name": "new-project-2",
+      "url": "https://github.com/estona815/new-project-2",
+      "description": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "smart-pill-sim-website",
+      "url": "https://github.com/estona815/smart-pill-sim-website",
+      "description": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "paper-simulation-research-public",
+      "url": "https://github.com/estona815/paper-simulation-research-public",
+      "description": "Korean public demo for a paper-only U.S. equities simulation research dashboard",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "new-project-3",
+      "url": "https://github.com/estona815/new-project-3",
+      "description": "REAPER mix pipeline workspace",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "codex-1-git-2-codex-git",
+      "url": "https://github.com/estona815/codex-1-git-2-codex-git",
+      "description": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "companion-marketplace-mvp",
+      "url": "https://github.com/estona815/companion-marketplace-mvp",
+      "description": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "q-flow-quantum-manufacturing-reframe",
+      "url": "https://github.com/estona815/q-flow-quantum-manufacturing-reframe",
+      "description": "Quantum-inspired manufacturing scheduling prototype with QUBO benchmarking, reports, and submission assets.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "ssagwal-policy-pages",
+      "url": "https://github.com/estona815/ssagwal-policy-pages",
+      "description": "Public policy pages for Ssagwal Apps in Toss",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "study-merge",
+      "url": "https://github.com/estona815/study-merge",
+      "description": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "focus-battery",
+      "url": "https://github.com/estona815/focus-battery",
+      "description": "ADHD-friendly energy battery planner built with Expo React Native and TypeScript",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "ait-meme-lab-20",
+      "url": "https://github.com/estona815/ait-meme-lab-20",
+      "description": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "BREACHWORD-NAN2026",
+      "url": "https://github.com/estona815/BREACHWORD-NAN2026",
+      "description": "NAN 2026 GAME × AI Hackathon — deterministic natural-language tactical game",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "contextpatch-ai-datahub-2026",
+      "url": "https://github.com/estona815/contextpatch-ai-datahub-2026",
+      "description": "Keyless DataHub context replay for evidence-linked schema migration and incident repair",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "CANONLOOP",
+      "url": "https://github.com/estona815/CANONLOOP",
+      "description": "Autonomous visual continuity director for generative media",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "LINEAGEPATCH",
+      "url": "https://github.com/estona815/LINEAGEPATCH",
+      "description": "Proof-carrying data repair agent built with DataHub context",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "sessionproof",
+      "url": "https://github.com/estona815/sessionproof",
+      "description": "Evidence-linked credit readiness agent for Build with AI 2026",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "discloseless",
+      "url": "https://github.com/estona815/discloseless",
+      "description": "Purpose-aware, local-first PDF minimization with inspectable verification",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "soundmark-edge",
+      "url": "https://github.com/estona815/soundmark-edge",
+      "description": "Private, offline few-shot custom sound recognition optimized for Arm64 Android",
+      "default_branch": "codex/soundmark-edge",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "glitchcurator",
+      "url": "https://github.com/estona815/glitchcurator",
+      "description": "Human-directed local AI game for NAN 2026",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "leveltrace-socialsim26",
+      "url": "https://github.com/estona815/leveltrace-socialsim26",
+      "description": "LEVELTRACE evaluation code and aggregate results for the COLM 2026 Social Sim'26 Shared Task",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "learnloom-prom26",
+      "url": "https://github.com/estona815/learnloom-prom26",
+      "description": "Evidence-linked browser-local learning paths with explainable NLP",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "clearseg-mteval26",
+      "url": "https://github.com/estona815/clearseg-mteval26",
+      "description": "Deterministic reference-free baseline for WMT 2026 MT Evaluation Task 3",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "awesome-phone-call-agents",
+      "url": "https://github.com/estona815/awesome-phone-call-agents",
+      "description": "Portable phone-call Agent Skills, apps, examples, adapters, and scheduler recipes for AI agents.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": true
+    },
+    {
+      "name": "backdropiq-youcam-2026",
+      "url": "https://github.com/estona815/backdropiq-youcam-2026",
+      "description": "Scene-aware outfit ranking for performance stages and important first-meeting locations, with a fixture-safe YouCam Apparel VTO path.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "tuberbot-market",
+      "url": "https://github.com/estona815/tuberbot-market",
+      "description": "튜버봇 마켓 제품 프리뷰 — 샘플 데이터, 실제 거래 불가",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "metermend",
+      "url": "https://github.com/estona815/metermend",
+      "description": "Evidence-first electricity-waste diagnosis for small commercial buildings",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "fairturn",
+      "url": "https://github.com/estona815/fairturn",
+      "description": "Privacy-first, explainable facilitation for fairer community decisions",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "kspo-safety-data-receipt",
+      "url": "https://github.com/estona815/kspo-safety-data-receipt",
+      "description": "KSPO 레저스포츠 안전데이터 품질 영수증",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "proofloop-devnetwork-2026",
+      "url": "https://github.com/estona815/proofloop-devnetwork-2026",
+      "description": "Local-first release evidence gate for the DevNetwork API + Cloud + AI Hackathon 2026",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "disclosure-clock-fsec-2026",
+      "url": "https://github.com/estona815/disclosure-clock-fsec-2026",
+      "description": "Keyless browser-local AI disclosure timeline for 2026 Finance AI Challenge",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "offcut-studio",
+      "url": "https://github.com/estona815/offcut-studio",
+      "description": "A local material-aware cutting planner that preserves completed cuts and recovers uncut pieces. Alexa+ web simulation prototype.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "voltscope-tracelab",
+      "url": "https://github.com/estona815/voltscope-tracelab",
+      "description": "Local sensor capture integrity and reproducible evidence workbench",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "abstainlab",
+      "url": "https://github.com/estona815/abstainlab",
+      "description": "Local selective classification with validation-only abstention and transparent holdout errors",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "fraction-path",
+      "url": "https://github.com/estona815/fraction-path",
+      "description": "Offline fraction learning with original lessons, exact arithmetic, and portable progress. Created for GatewayHacks 2026.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "netcheck",
+      "url": "https://github.com/estona815/netcheck",
+      "description": "Connection-record comparison with witness paths, local Strands tools, and separately reviewed draft changes.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "quiet-margin",
+      "url": "https://github.com/estona815/quiet-margin",
+      "description": "Local Nostr long-form reading with private notes and immutable saved places",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "gridweave",
+      "url": "https://github.com/estona815/gridweave",
+      "description": "Browser-local counted stitch pattern studio built during CodeStorm 2026",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "lantern-lines-hyperbloom-2026",
+      "url": "https://github.com/estona815/lantern-lines-hyperbloom-2026",
+      "description": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "leafsignal-ml-build-2026",
+      "url": "https://github.com/estona815/leafsignal-ml-build-2026",
+      "description": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "stagecue-syntax-summit-2026",
+      "url": "https://github.com/estona815/stagecue-syntax-summit-2026",
+      "description": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "formsignal-gibc-v2-2026",
+      "url": "https://github.com/estona815/formsignal-gibc-v2-2026",
+      "description": "FormSignal: local form path explorer for GIBC V2 Open track",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "palettedock-learn-ai-basics-2026",
+      "url": "https://github.com/estona815/palettedock-learn-ai-basics-2026",
+      "description": "PaletteDock: image-to-interface color roles and live preview, built for Devpost Learn.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "patchpledge-3rd-web-hack-2026",
+      "url": "https://github.com/estona815/patchpledge-3rd-web-hack-2026",
+      "description": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "visitweave-univabio-2026",
+      "url": "https://github.com/estona815/visitweave-univabio-2026",
+      "description": "VisitWeave: privacy-first, source-linked appointment agenda prototype for UnivaBio",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "fitrelay-code-for-humanity-2026",
+      "url": "https://github.com/estona815/fitrelay-code-for-humanity-2026",
+      "description": "Private-by-design garment measurement comparison for community clothing reuse",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "rainpocket-hack-atlantic-2026",
+      "url": "https://github.com/estona815/rainpocket-hack-atlantic-2026",
+      "description": "A browser-only stormwater garden storage estimator built for Hack Atlantic 2026",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "foldsheet-warriorhacks-2026",
+      "url": "https://github.com/estona815/foldsheet-warriorhacks-2026",
+      "description": "FoldSheet: local PDF booklet imposition for community handouts. AI-assisted development disclosed.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "germination-observation-notebook-2026",
+      "url": "https://github.com/estona815/germination-observation-notebook-2026",
+      "description": "Synthetic Germination Notebook: structured Sanity observations, zero versus missing, comparable replicates, and append-only corrections. AI-authored demonstration.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "nungeum-donghaeng-keit-2026",
+      "url": "https://github.com/estona815/nungeum-donghaeng-keit-2026",
+      "description": "눈금동행: 로컬 AI 숫자 판독·단위 확인·소수점 학습 교육 프로토타입",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "digital-studies-portfolio",
+      "url": "https://github.com/estona815/digital-studies-portfolio",
+      "description": "Documented AI assisted digital visual studies",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "scale-lab-forgehacks-2026",
+      "url": "https://github.com/estona815/scale-lab-forgehacks-2026",
+      "description": "Learn a power-law relationship from observations, then challenge it with a separate probe. Original ForgeHacks 2026 education prototype.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "scenarioseed",
+      "url": "https://github.com/estona815/scenarioseed",
+      "description": "Synthetic API request fixtures and boundary cases from a small JSON Schema subset. LovHack Season 3 prototype.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "motion-bench-hyperbloom-october-2026",
+      "url": "https://github.com/estona815/motion-bench-hyperbloom-october-2026",
+      "description": "Motion Bench: compare CSS easing curves on one shared timeline. Source for Hyperbloom October 2026.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "ledgerlens-signalpost-2026",
+      "url": "https://github.com/estona815/ledgerlens-signalpost-2026",
+      "description": "Zero-key Norwegian company research prototype for Signalpost; actual 100-company smoke report included.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "ttareungi-monthly-audit-2026-koreashe95427",
+      "url": "https://github.com/estona815/ttareungi-monthly-audit-2026-koreashe95427",
+      "description": "Reproducible analysis of public Seoul bicycle monthly aggregates, 2025 and 2026 H1; descriptive comparisons and explicit limitations.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "glyphcheck",
+      "url": "https://github.com/estona815/glyphcheck",
+      "description": "Local English and Korean OCR proofreading with source-region review, explicit corrections and audit exports.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "framefair",
+      "url": "https://github.com/estona815/framefair",
+      "description": "Local image AI proposes face regions; reviewed crop geometry keeps selected regions or uses honest padding.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "cubenet-nextbyte-2026",
+      "url": "https://github.com/estona815/cubenet-nextbyte-2026",
+      "description": "Draw six squares and trace their cube face orientations. Original AI-assisted educational prototype for Next Byte Hacks V5.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "maskpatch-childsafety-2026",
+      "url": "https://github.com/estona815/maskpatch-childsafety-2026",
+      "description": "MaskPatch: local synthetic token-span privacy rehearsal and reversible text editing.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "engineering-portfolio",
+      "url": "https://github.com/estona815/engineering-portfolio",
+      "description": "Kwon Jun | Evidence-bound engineering portfolio, project case studies and verified creative awards",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "estona815",
+      "url": "https://github.com/estona815/estona815",
+      "description": "Kwon Jun | GitHub profile and engineering portfolio index",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "restoreproof",
+      "url": "https://github.com/estona815/restoreproof",
+      "description": "Read-only restore verification: local file hashes, explicit coverage gaps, and portable evidence. Built for SafeSpace Hacks.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "oneclearstep",
+      "url": "https://github.com/estona815/oneclearstep",
+      "description": "Local interruption recovery: explicit uncertainty, dependency-aware next steps, and private context history. Built for Taskforge.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "graphspeak",
+      "url": "https://github.com/estona815/graphspeak",
+      "description": "Chart-reading lessons with equivalent tables and text: cropped axes, percentage points, and missing data.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "idleproof-green-shift-2026",
+      "url": "https://github.com/estona815/idleproof-green-shift-2026",
+      "description": "Local-only overnight electricity comparison with matched coverage, data-quality gates and reproducible evidence. Synthetic demo; no measured savings claim.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "fixturelens-aqx-2026",
+      "url": "https://github.com/estona815/fixturelens-aqx-2026",
+      "description": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "retrygarden-launchpad-2026",
+      "url": "https://github.com/estona815/retrygarden-launchpad-2026",
+      "description": "A deterministic, local-only teaching lab for retries, lost acknowledgements and duplicate effects. Synthetic model; independent review pending.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "optionhold-hack-to-future-2026",
+      "url": "https://github.com/estona815/optionhold-hack-to-future-2026",
+      "description": "Independent Google Calendar option-group prototype for Hack to the Future 2026. Synthetic data; conflict-safe confirmation and undo.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "sealroute-mathsecurity-2026",
+      "url": "https://github.com/estona815/sealroute-mathsecurity-2026",
+      "description": "Synthetic privacy boundary for AI incident routing: encrypted bodies, public intent, constrained proposals and local review. No real incident delivery.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "reproslice-hackoctober-2026",
+      "url": "https://github.com/estona815/reproslice-hackoctober-2026",
+      "description": "Local synthetic failure reduction with exact failure signatures, original line identity, unresolved deletion checks and portable evidence. Built for HackOctober31802.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "quorumglass-nextspark-2026",
+      "url": "https://github.com/estona815/quorumglass-nextspark-2026",
+      "description": "A local educational lab comparing plurality, instant-runoff and pairwise preferences; explicit cycles and unresolved ties.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "mixshift-stem2connect-2026",
+      "url": "https://github.com/estona815/mixshift-stem2connect-2026",
+      "description": "Exact-fraction educational rate decomposition lab with synthetic examples and reproducible independent verification.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "batchday",
+      "url": "https://github.com/estona815/batchday",
+      "description": "Open-model task batching with explicit constraints and every original preserved",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "cellfence",
+      "url": "https://github.com/estona815/cellfence",
+      "description": "Local CSV review and all-text XLSX export. Built for Vibe Forge.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "heatwitness",
+      "url": "https://github.com/estona815/heatwitness",
+      "description": "Reproducible hot-day comparisons that carry missing-data bounds and NOAA source evidence into every claim.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "kitbrief",
+      "url": "https://github.com/estona815/kitbrief",
+      "description": "Source-backed workshop packing lists using Clocked Extract and Fill, with reviewable corrections and recorded examples.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "unsaid-archive",
+      "url": "https://github.com/estona815/unsaid-archive",
+      "description": "A browser-local semantic reading room that retrieves exact source passages without generating testimony.",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "estona815.github.io",
+      "url": "https://github.com/estona815/estona815.github.io",
+      "description": "치이카와 덕력고사 · 랜덤 20문제와 소풍 이야기, 성적표 공유를 제공하는 비공식 팬 퀴즈",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false
+    }
+  ]
+}

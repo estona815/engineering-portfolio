@@ -1,0 +1,65 @@
+{
+  "checked_at_utc": "2026-11-02T17:29:17.283330+00:00",
+  "checked_date_kst": "2026-11-03",
+  "executed_by": "ChatGPT-assisted portfolio review",
+  "node_version": "v24.22.1",
+  "source_modified": false,
+  "dependencies_installed": false,
+  "source_commits": {
+    "workbench": "0669f4c8a0e066d1d3ee9dd19f193a640fa86473",
+    "glyphcheck": "64ff6626e877c8cc327d7dc52387e0c8dec72923"
+  },
+  "source_blob_files_verified": 28,
+  "checks": [
+    {
+      "name": "workbench-node-tests",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "working_directory": "employer-workbench",
+      "exit_code": 0,
+      "counts": null
+    },
+    {
+      "name": "glyphcheck-frontend-regression",
+      "command": [
+        "node",
+        "tests/frontend_regression.cjs",
+        "--expected-sha",
+        "b4a825d2460372833abfc7714a5ec9c78163f4eb663da17807ef631db17069d4"
+      ],
+      "working_directory": "glyphcheck",
+      "exit_code": 0,
+      "counts": null
+    },
+    {
+      "name": "workbench-node-tests-detailed",
+      "command": [
+        "node",
+        "--test",
+        "--test-isolation=none",
+        "--test-reporter=tap",
+        "tests/docenty.test.mjs",
+        "tests/ensapia.test.mjs",
+        "tests/interx.test.mjs",
+        "tests/storage.test.mjs",
+        "tests/vibers.test.mjs",
+        "tests/windly.test.mjs",
+        "tests/wisewires.test.mjs"
+      ],
+      "working_directory": "employer-workbench",
+      "exit_code": 0,
+      "counts": {
+        "tests": 112,
+        "pass": 112,
+        "fail": 0,
+        "skipped": 0
+      }
+    }
+  ],
+  "limits": [
+    "Workbench production build and TypeScript check not run; required project dependencies are absent.",
+    "GlyphCheck frontend regression uses the repository VM/DOM harness and mocked transport; real OCR model execution, HTTP integration, and real-browser E2E are not run."
+  ]
+}

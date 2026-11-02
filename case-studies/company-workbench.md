@@ -1,45 +1,54 @@
-# Company Workbench · QA와 업무자동화 작업 표본
+# Company Workbench
+## 결함을 재현하고 재고 차이를 원본까지 추적하는 웹 도구
 
-**검토 직무:** 소프트웨어 QA·테스트, AI 업무자동화, AI Product Builder, 데이터 검수
+[포트폴리오](../README.md) · [소스와 실행 안내](https://github.com/estona815/contextpatch-ai-datahub-2026/tree/portfolio/company-workbench-20260929/employer-workbench)
 
-React·TypeScript·Vite로 구성한 여섯 개의 브라우저 기반 개인 시제품입니다. 공개된 직무·제품 맥락을 참고했으며 특정 기업의 의뢰, 재직, 내부 데이터 사용 또는 채용 확약을 의미하지 않습니다.
-
-[소스와 실행 안내](https://github.com/estona815/contextpatch-ai-datahub-2026/tree/portfolio/company-workbench-20260929/employer-workbench) · [기존 시연 주소](https://kwon-work-49mnyp.v2.appdeploy.ai/)
-
-## QA 지원에서 먼저 볼 두 가지
-
-### FaultLab: 결함과 수정 결과를 동일 조건으로 비교
-
-의도적으로 만든 결함 6개와 수정 함수를 동일 입력 및 독립된 업무 규칙으로 비교합니다. 경계값을 바꿔 결함이 재현되는 조건과 재현되지 않는 조건을 확인하고, 현재 입력에서 관측한 결과만 Markdown·JSON 보고서로 만듭니다.
-
-관심 지점은 테스트 수 자체보다 입력, 기대 규칙, 관측값, 재현 조건의 연결입니다. 예제의 의도된 FAIL은 결함 시연 결과이며 회귀 테스트 실패와는 다릅니다.
-
-### StockBridge: CSV 대사 결과를 원본 행까지 추적
-
-CSV 입력과 열 연결, SKU·지역별 재고 비교, 입력 오류 확인, 충돌 중복 보류를 수행하는 시제품입니다. 충돌 중복을 무조건 합산하지 않고 보류하며, 수량 차이와 통화별 금액 차이를 구분합니다. CSV 행별 결과와 JSON 근거를 내보냅니다.
-
-## 나머지 작업 표본
-
-| 표본 | 확인할 흐름 |
+| 항목 | 내용 |
 |---|---|
-| AdSpec | 광고 설정 규칙·버전 비교, 입력 변경 후 기존 검토 무효화 |
-| FlowMap | 단계·권한·승인 조건, 중복 실행 방지, 재시도 |
-| BriefLedger | 요구사항과 정상·오류·권한 시나리오 연결 |
-| AvatarOps | 사용자 범위·승인 순서·중복 적용의 규칙별 비교 |
+| 형태 | 공개 직무·제품 맥락을 참고한 개인 시제품 6개 |
+| 먼저 볼 모듈 | FaultLab · StockBridge |
+| 담당 | 문제 선정, AI 도구와 협업한 제작·검토, 재현 절차와 검증 자료 |
+| 기술 | React · TypeScript · Vite · Node 테스트 |
+| 현재 범위 | 합성 입력을 사용하는 브라우저 작업 표본 |
 
-## 역할과 기술
+## 해결하려던 문제
 
-문제 선택, 시제품 구현, 검증·배포 자료 작성에 AI 도구를 활용한 개인 작업입니다. 원본 README의 제작·라이선스 고지와 ATTRIBUTIONS를 따릅니다. 실제로 작성·검토·설명할 수 있는 개인 기여와 도구의 기여를 구분합니다.
+결함 보고서에 실패 결과만 있으면 같은 문제를 다시 확인하기 어렵습니다. 재고 대조에서도 합계만 보면 빈 수량·충돌 중복·통화 차이가 결과에 섞일 수 있습니다. 이 표본은 **입력 → 적용 규칙 → 관측 결과 → 원본 근거**를 연결합니다.
 
-순수 엔진을 UI와 분리하고 합성 정상·실패·경계 시나리오를 제공합니다. 운영 서버·실제 고객 DB·외부 광고 계정·재고 시스템에 연결하지 않습니다.
+## 중요한 설계 선택
 
-## 검증 기록을 읽는 방법
+### 1 결함 함수와 수정 함수를 같은 입력으로 비교
 
-2026-10-31 해당 브랜치의 `employer-workbench/README.md`를 확인했습니다. 확인한 파일의 Git blob SHA는 `d596ad7d3f6c99f016cf70ac4059c39a5eabe9ef`입니다.
+FaultLab은 수량, 할인, 중복 주문, 만료 시각, 검색 응답 순서, 반복 취소의 여섯 시나리오를 제공합니다. 수정 함수와 별도의 업무 규칙으로 기대값을 계산하여 비교합니다.
 
-원본 README에는 **112개 Node 테스트, TypeScript 검사, Vite 빌드 통과**가 기록되어 있습니다. 이는 기존 체크인 기록이며 이번 채용 문서 정리에서 재실행한 결과가 아닙니다. 브라우저 시나리오 파일의 존재를 자동 E2E 통과로 해석하지 않습니다.
+유효한 입력에서 결함이 재현되지 않으면 그 결과를 그대로 보여줍니다. 잘못된 실험 입력은 별도로 처리하고, 현재 실행에서 관측한 실패를 Markdown·JSON 보고서에 남깁니다.
 
-원본 저장소의 재현 절차:
+[엔진](https://github.com/estona815/contextpatch-ai-datahub-2026/blob/0669f4c8a0e066d1d3ee9dd19f193a640fa86473/employer-workbench/src/modules/wisewires/engine.ts) · [기존 테스트](https://github.com/estona815/contextpatch-ai-datahub-2026/blob/0669f4c8a0e066d1d3ee9dd19f193a640fa86473/employer-workbench/tests/wisewires.test.mjs)
+
+### 2 불명확한 데이터는 합산 전에 보류
+
+StockBridge는 SKU와 지역을 기준으로 CSV 재고를 대조합니다. 빈 수량은 입력 오류로 처리하고, 충돌하는 중복은 검토 대상으로 보류합니다. 금액은 통화별로 계산하며 결과에서 원본 행과 원래 값을 확인할 수 있습니다.
+
+자동 처리 범위를 줄이는 선택이지만, 잘못된 합계를 정상 결과로 받아들이는 일을 막고 검수할 위치를 분명히 합니다.
+
+[엔진](https://github.com/estona815/contextpatch-ai-datahub-2026/blob/0669f4c8a0e066d1d3ee9dd19f193a640fa86473/employer-workbench/src/modules/vibers/engine.ts) · [기존 테스트](https://github.com/estona815/contextpatch-ai-datahub-2026/blob/0669f4c8a0e066d1d3ee9dd19f193a640fa86473/employer-workbench/tests/vibers.test.mjs)
+
+### 3 입력이 바뀌면 이전 검토를 다시 확인
+
+CSV나 열 연결이 바뀌면 앞선 결과에 대한 검토·내보내기를 현재 입력에 그대로 적용할 수 없습니다. 이 상태를 무효화해 사용자가 다시 계산하고 검토하도록 합니다.
+
+## 직접 확인할 흐름
+
+| 순서 | 확인할 행동 | 기대하는 관측 |
+|---|---|---|
+| FaultLab | 할인 초과 또는 만료 경계 등 입력을 바꾸어 결함·수정 함수를 비교 | 입력·기대값·실제값과 재현 여부가 함께 표시됨 |
+| StockBridge | 빈 수량과 충돌 중복을 포함한 CSV를 대조 | 정상 계산과 보류·오류 행을 구분함 |
+| 결과 추적 | 결과의 원본 행과 내보낸 근거를 대조 | 같은 입력을 설명하는 자료인지 확인할 수 있음 |
+| 변경 처리 | 검토 후 CSV 또는 열 연결을 바꿈 | 이전 검토·내보내기 상태가 무효화됨 |
+
+## 재현 방법
+
+저장소의 `portfolio/company-workbench-20260929` 브랜치에서 실행합니다.
 
 ```bash
 cd employer-workbench
@@ -49,8 +58,25 @@ npm run typecheck
 npm run build
 ```
 
-## 범위와 한계
+[기존 공개 데모](https://kwon-work-49mnyp.v2.appdeploy.ai/) · [릴리스 검증 기록](https://github.com/estona815/contextpatch-ai-datahub-2026/blob/0669f4c8a0e066d1d3ee9dd19f193a640fa86473/employer-workbench/docs/RELEASE_REPORT.md)
 
-합성 예제에 대한 결정적 계산과 로컬 검토 기록입니다. 실제 운영 적용에는 인증·권한·동시성·서버 저장·업무 규칙 검증이 추가로 필요합니다. 시간 절감 계산은 입력한 가정이며 실측 성과가 아닙니다. 이번 정리에서 공개 데모의 전 화면 동작이나 모든 테스트를 재검증하지 않았습니다.
+## 검증과 적용 범위
 
-[QA·자동화 이력서](../docs/RESUME_QA_KO.md) · [포트폴리오](../README.md) · [증거 기준](../docs/EVIDENCE.md)
+**2026-11-03 기존 엔진·저장 경계 회귀 테스트를 재실행해 112/112 통과를 확인했습니다.** 원본 README의 TypeScript 검사·Vite 빌드는 과거 기록입니다. 과거 기록과 이번 확인 범위는 [검증 기록](../docs/VALIDATION.md)에서 구분합니다. 시연용 결함 함수의 FAIL은 의도된 동작이며 회귀 테스트 실패와 별개입니다.
+
+현재는 개인 작업 표본입니다. 실제 재고·광고·고객 DB와의 연동, 서버 인증·권한·동시성은 추가 구현과 현장 검증이 필요한 범위입니다.
+
+<details>
+<summary>나머지 네 가지 표본</summary>
+
+| 표본 | 확인할 동작 |
+|---|---|
+| AdSpec | 광고 설정 규칙·버전 비교, 변경 후 재검토 |
+| FlowMap | 단계·권한·승인 조건, 중복 실행과 재시도 |
+| BriefLedger | 요구사항과 정상·오류·권한 시나리오 연결 |
+| AvatarOps | 사용자 범위·승인 순서·중복 적용 비교 |
+
+</details>
+
+[QA 이력서](../docs/RESUME_QA_KO.md) · [AI 활용과 기여 기준](../docs/EVIDENCE.md)
+
