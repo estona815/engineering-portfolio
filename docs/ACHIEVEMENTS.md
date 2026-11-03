@@ -1,14 +1,19 @@
 # 수상 · 파이널리스트 · 선정 · 플랫폼 승인
 
-**2026-11-03 갱신.** 수상 3건, FitShadow 파이널리스트, 앱인토스 버전 승인의 근거를 다시 확인했습니다. 기타 선정·교육 이력은 2026-10-31 대조 기록을 유지합니다. 개별 수신 통지, 후속 결과, 공식 공개 페이지를 구분해 정리했습니다. 수상뿐 아니라 확인된 심사선정과 플랫폼 승인도 빠뜨리지 않되, 서로 다른 결과를 같은 등급으로 합산하지 않습니다.
+**2026-11-03 갱신.** 공모전 수상·입선·행운상 6건, 대회 심사 통과·파이널리스트 3건, 교육생 선발 1건, 앱 버전 승인 2건을 정리했습니다. 개별 통지·공개 발표 등 확보한 증빙을 대조했으며, 정확한 등급과 확인된 단계를 그대로 표기합니다.
 
-## 수상
+## 수상과 입선
 
 | 기준일 | 대회 | 확인된 결과 | 확인 근거 |
 |---|---|---|---|
-| 2026-10-08 개별 통지 | 2026 수성 건축·조경 시각작품 국제 공모전 | **일반 부문 장려상** | 주최 측이 권준에게 보낸 부문·등급 명시 수상 통지. [기존 공식 공고](https://www.sscf.or.kr/~newsscf/pages/sub.htm?mode=view&mv_data=aWR4PTg2ODMmc3RhcnRQYWdlPTAmbGlzdE5vPTUxMSZ0YWJsZT1jc19iYnNfZGF0YSZuYXZfY29kZT1uZXcxNjI4NTk0NDI5JmNvZGU9YmlkJnNlYXJjaF9pdGVtPSZzZWFyY2hfb3JkZXI9Jm9yZGVyX2xpc3Q9Jmxpc3Rfc2NhbGU9JnZpZXdfbGV2ZWw9JnZpZXdfY2F0ZT0mdmlld19jYXRlMj0%3D%7C%7C). 본인 식별은 마스킹된 명단이 아닌 개별 통지에 근거. |
-| 2026-10-01 공개 발표 | 2026 Lucasverse Fanfiction Contest | **1위 · Authorized Driver · Kwon Jun** | [주최자 공식 발표](https://www.lucasflint.com/2026-lucasverse-fanfiction-contest-winner-authorized-driver-by-kwon-jun/)의 이름·작품·first place를 재확인. 창작 소설 수상. |
-| 2026-08-27 개별 통지 | 코레일유통 2026 대국민 아이디어 공모전 | **수상 · 세부 등급 미기재** | 결과 발표·포상 지급 안내에서 본인 수상 확인. 확인한 본문에 등급·금액이 없어 추가하지 않음. |
+| 2026-10-30 공개 발표 | 전주시 · 2026 인구혁신 프로젝트 시민 정책 제안 공모 | **최우수상** · 「J-Shift 90」 | [공식 발표](https://www.jeonju.go.kr/planweb/board/view.9is?dataUid=6e6810990322476b89ad8dc8a82d0544&&contentUid=ff8080818990c349018b041a879f395a&searchType=dataTitle&tmpField14=&boardUid=9be517a7914528ce01930aa3ddc26cf0&page=1&keyword=인구혁신) · 전주시 공고 제2026-2291호 결과 공고와 본인 제출 원문을 작품명으로 대조. |
+| 2026-10-08 통지 | 2026 수성 건축·조경 시각작품 국제 공모전 | **일반 부문 장려상** · 「숨 쉬는 단면」 | [기존 공식 공고](https://www.sscf.or.kr/~newsscf/pages/sub.htm?mode=view&mv_data=aWR4PTg2ODMmc3RhcnRQYWdlPTAmbGlzdE5vPTUxMSZ0YWJsZT1jc19iYnNfZGF0YSZuYXZfY29kZT1uZXcxNjI4NTk0NDI5JmNvZGU9YmlkJnNlYXJjaF9pdGVtPSZzZWFyY2hfb3JkZXI9Jm9yZGVyX2xpc3Q9Jmxpc3Rfc2NhbGU9JnZpZXdfbGV2ZWw9JnZpZXdfY2F0ZT0mdmlld19jYXRlMj0%3D%7C%7C) · 부문·등급을 명시한 본인 수상 통지와 작품 제출 메일 대조. |
+| 2026-10-01 공개 발표 | 2026 Lucasverse Fanfiction Contest | **1위** · 「Authorized Driver」 | [공식 발표](https://www.lucasflint.com/2026-lucasverse-fanfiction-contest-winner-authorized-driver-by-kwon-jun/) · 주최자 공식 발표에 Kwon Jun, 작품명, first place 명시. |
+| 2026-08-27 통지 | 코레일유통 · 2026 대국민 아이디어 공모전 | **수상** | 본인 수상 축하와 포상 지급 안내 메일 확인. 세부 등급은 통지에 미기재. |
+| 2026.10 | 한국산림복지진흥원 · 산림복지 10년 숲이 나를 바꾼 순간 콘텐츠 공모전 | **입선** · 「숲 한 칸」 | [공식 발표](https://www.fowi.or.kr/user/bbs/bbsView.do?bbsId=9290&bbsManageId=12) · 공식 수상작 공고, 개별 입선 안내 문자, 포스터·일러스트 제출확인 메일을 대조. |
+| 2026-10-23 발표·문자 | 상명대학교 국어문화원 · 2026년 우리말 표어 공모전 | **행운상** | [공식 발표](https://www.smkorean.kr/notice/notice.php?boardid=notice&idx=96&mode=view) · 공식 수상자 발표와 개별 행운상 안내 문자 대조. |
+
+전주시 최우수상은 결과 공고의 「J-Shift 90」과 본인 제출 제목을 대조했습니다. 산림복지 입선의 공개 문서 날짜는 10월 28일이며 홈페이지 게시일은 10월 27일이므로, 간략 이력에는 2026년 10월로 기재합니다. 우리말 표어는 공식 명칭인 ‘행운상’을 사용합니다.
 
 ## 해외 해커톤 파이널리스트
 
@@ -31,6 +36,7 @@ FitShadow는 단순 참가 기록이 아니라 주최 측이 prize로 통지한 
 | 기준일 | 제품·플랫폼 | 확인된 결과 | 범위 |
 |---|---|---|---|
 | 2026-07-03 개별 통지 | 앱인토스 · 싸괄 | **20260703-3 버전 승인** | 토스 비즈니스 승인 메일 확인. 이전 버전·앱 정보 승인과 별개 수상으로 중복 집계하지 않음. 승인 뒤 별도 출시 절차가 안내되어 현재 출시·매출·활성 사용자 증거로 확대하지 않음. |
+| 2026-07-18 개별 통지 | 앱인토스 · 대신 | **20260718-7 버전 승인** | 토스 비즈니스의 버전 승인 메일 확인. 앱 정보 승인과 구별하고, 이전 승인 버전은 같은 제품의 이력으로 관리. 현재 출시·매출은 별도 확인 대상. |
 
 ## 참가 인정 및 과거 단계의 구분
 
