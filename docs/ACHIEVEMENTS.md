@@ -1,19 +1,19 @@
 # 수상 · 파이널리스트 · 선정 · 플랫폼 승인
 
-**2026-11-03 갱신.** 공모전 수상·입선·행운상 6건, 대회 심사 통과·파이널리스트 3건, 교육생 선발 1건, 앱 버전 승인 2건을 정리했습니다. 개별 통지·공개 발표 등 확보한 증빙을 대조했으며, 정확한 등급과 확인된 단계를 그대로 표기합니다.
+**2026-11-06 갱신.** 공모전 수상·입선·행운상 6건, 대회 심사 통과·파이널리스트 3건, 교육생 선발 1건, 앱 버전 승인 2건을 정리했습니다. 개별 통지·공개 발표 등 확보한 증빙을 대조했으며, 정확한 등급과 확인된 단계를 그대로 표기합니다.
 
 ## 수상과 입선
 
 | 기준일 | 대회 | 확인된 결과 | 확인 근거 |
 |---|---|---|---|
-| 2026-10-30 공개 발표 | 전주시 · 2026 인구혁신 프로젝트 시민 정책 제안 공모 | **최우수상** · 「J-Shift 90」 | [공식 발표](https://www.jeonju.go.kr/planweb/board/view.9is?dataUid=6e6810990322476b89ad8dc8a82d0544&&contentUid=ff8080818990c349018b041a879f395a&searchType=dataTitle&tmpField14=&boardUid=9be517a7914528ce01930aa3ddc26cf0&page=1&keyword=인구혁신) · 전주시 공고 제2026-2291호 결과 공고와 본인 제출 원문을 작품명으로 대조. |
+| 2026-10-30 공개 발표 | 전주시 · 2026 인구혁신 프로젝트 시민 정책 제안 공모 | **최우수상(전주시장상)** · 「J-Shift 90」 | [공식 발표](https://www.jeonju.go.kr/planweb/board/view.9is?dataUid=6e6810990322476b89ad8dc8a82d0544&&contentUid=ff8080818990c349018b041a879f395a&searchType=dataTitle&tmpField14=&boardUid=9be517a7914528ce01930aa3ddc26cf0&page=1&keyword=인구혁신) · 전주시 공고 제2026-2291호의 최우수상·훈격 ‘시장상’과 본인 제출 원문의 작품명을 대조. |
 | 2026-10-08 통지 | 2026 수성 건축·조경 시각작품 국제 공모전 | **일반 부문 장려상** · 「숨 쉬는 단면」 | [기존 공식 공고](https://www.sscf.or.kr/~newsscf/pages/sub.htm?mode=view&mv_data=aWR4PTg2ODMmc3RhcnRQYWdlPTAmbGlzdE5vPTUxMSZ0YWJsZT1jc19iYnNfZGF0YSZuYXZfY29kZT1uZXcxNjI4NTk0NDI5JmNvZGU9YmlkJnNlYXJjaF9pdGVtPSZzZWFyY2hfb3JkZXI9Jm9yZGVyX2xpc3Q9Jmxpc3Rfc2NhbGU9JnZpZXdfbGV2ZWw9JnZpZXdfY2F0ZT0mdmlld19jYXRlMj0%3D%7C%7C) · 부문·등급을 명시한 본인 수상 통지와 작품 제출 메일 대조. |
 | 2026-10-01 공개 발표 | 2026 Lucasverse Fanfiction Contest | **1위** · 「Authorized Driver」 | [공식 발표](https://www.lucasflint.com/2026-lucasverse-fanfiction-contest-winner-authorized-driver-by-kwon-jun/) · 주최자 공식 발표에 Kwon Jun, 작품명, first place 명시. |
 | 2026-08-27 통지 | 코레일유통 · 2026 대국민 아이디어 공모전 | **수상** | 본인 수상 축하와 포상 지급 안내 메일 확인. 세부 등급은 통지에 미기재. |
-| 2026.10 | 한국산림복지진흥원 · 산림복지 10년 숲이 나를 바꾼 순간 콘텐츠 공모전 | **입선** · 「숲 한 칸」 | [공식 발표](https://www.fowi.or.kr/user/bbs/bbsView.do?bbsId=9290&bbsManageId=12) · 공식 수상작 공고, 개별 입선 안내 문자, 포스터·일러스트 제출확인 메일을 대조. |
+| 2026.10 | 한국산림복지진흥원 · 산림복지 10년 숲이 나를 바꾼 순간 콘텐츠 공모전 | **포스터·일러스트 부문 입선** · 「숲 한 칸」 | [공식 발표](https://www.fowi.or.kr/user/bbs/bbsView.do?bbsId=9290&bbsManageId=12) · 공식 수상작 공고, 개별 입선 안내 문자, 포스터·일러스트 제출확인 메일을 대조. |
 | 2026-10-23 발표·문자 | 상명대학교 국어문화원 · 2026년 우리말 표어 공모전 | **행운상** | [공식 발표](https://www.smkorean.kr/notice/notice.php?boardid=notice&idx=96&mode=view) · 공식 수상자 발표와 개별 행운상 안내 문자 대조. |
 
-전주시 최우수상은 결과 공고의 「J-Shift 90」과 본인 제출 제목을 대조했습니다. 산림복지 입선의 공개 문서 날짜는 10월 28일이며 홈페이지 게시일은 10월 27일이므로, 간략 이력에는 2026년 10월로 기재합니다. 우리말 표어는 공식 명칭인 ‘행운상’을 사용합니다.
+**전주시장상 확인:** 2026-10-30 결과 공고의 최우수상 행에 제안 제목·가림 이름 ‘권○’·훈격 ‘시장상’이 함께 표시됩니다. 보관된 공식 결과 이미지와 본인 명의 제출메일의 동일한 제안 제목을 2026-11-06 다시 대조했습니다. [「J-Shift 90」 사례](../case-studies/j-shift-90.md)에 제안의 범위를 정리했습니다. 상장 실물 수령·상금 입금·정책 시행 성과는 별도 확인 대상입니다. 산림복지 입선의 공개 문서 날짜는 10월 28일이며 홈페이지 게시일은 10월 27일이므로, 간략 이력에는 2026년 10월로 기재합니다. 우리말 표어는 공식 명칭인 ‘행운상’을 사용합니다.
 
 ## 해외 해커톤 파이널리스트
 
