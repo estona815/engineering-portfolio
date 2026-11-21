@@ -14,7 +14,7 @@
 
 **[J-Shift 90](../case-studies/j-shift-90.md) · 최우수상(전주시장상)** — 은퇴 숙련 인력·지역 제조·청년 주거를 연결한 90일 기술정착 정책 제안입니다. 개발 프로젝트와 함께 문제 정의·기획 경험을 확인할 수 있습니다.
 
-## 관심 영역에 따라 더 보기
+## AI 아트 수상작\n\n**[The Weather Archive](../case-studies/the-weather-archive.md)** — International AI Awards 2026, **Best AI Art · Silver Prize(Silver Winner)**. 주최 측 전자상장과 수상 통지의 확인 범위를 기술했습니다.\n\n## 관심 영역에 따라 더 보기
 
 | 관심 영역 | 사례 |
 |---|---|
