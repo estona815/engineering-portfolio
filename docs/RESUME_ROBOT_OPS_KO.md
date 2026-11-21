@@ -52,6 +52,7 @@ AI 보조 구현·검증 자료 정리. CSV의 SKU·지역별 수량 차이, 입
 
 ## 수상·입선
 
+- **2026.11** International AI Awards 2026 — **Best AI Art · Silver Prize (Silver Winner)**, 「The Weather Archive」. 주최 측 상장·수상 통지 확인.
 - **2026.10** 전주시 2026 인구혁신 프로젝트 시민 정책 제안 공모 — **최우수상(전주시장상)**, 「J-Shift 90」.
 - **2026.10** 수성 건축·조경 시각작품 국제 공모전 — 일반 부문 장려상.
 - **2026.10** Lucasverse Fanfiction Contest — 1위, 「Authorized Driver」.
@@ -73,4 +74,4 @@ AI 보조 구현·검증 자료 정리. CSV의 SKU·지역별 수량 차이, 입
 
 ---
 
-공개판 · 2026-11-06. 프로젝트별 담당과 검증 범위, AI 사용은 [증거 기준](EVIDENCE.md)과 각 사례에 기재했습니다.
+공개판 · 2026-11-21. 프로젝트별 담당과 검증 범위, AI 사용은 [증거 기준](EVIDENCE.md)과 각 사례에 기재했습니다.
