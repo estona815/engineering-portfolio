@@ -30,7 +30,7 @@ The documented **November 3, 2026** checks recorded **112/112** Company Workbenc
 
 | Competition | Recorded result |
 |---|---|
-| Jeonju 2026 Population Innovation Project | **최우수상 (Jeonju Mayor's Award)** · J-Shift 90 |
+| **International AI Awards 2026 · Best AI Art** | **Silver Prize (Silver Winner)** · The Weather Archive · Certificate issued November 21, 2026 |\n| Jeonju 2026 Population Innovation Project | **최우수상 (Jeonju Mayor's Award)** · J-Shift 90 |
 | 2026 Suseong Architecture and Landscape Visual Works International Competition | **Encouragement Award, General Division** · The Breathing Section |
 | 2026 Lucasverse Fanfiction Contest | **First Place** · Authorized Driver |
 | KORAIL Retail 2026 Public Idea Competition | **Award recipient**; the individual notice does not specify a prize tier |
@@ -45,4 +45,4 @@ The documented **November 3, 2026** checks recorded **112/112** Company Workbenc
 
 The case studies describe individual responsibilities, AI assistance, code references and validation boundaries. [Contribution and AI use](docs/EVIDENCE.md)
 
-Updated **2026-11-06**. Historical test dates remain attached to their original results.
+Updated **2026-11-21**. Historical test dates remain attached to their original results.
