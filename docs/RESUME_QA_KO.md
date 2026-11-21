@@ -10,7 +10,7 @@
 
 **전주시장상 · 정책 제안 최우수상(2026.10)** — 「J-Shift 90」. 은퇴 숙련 인력·지역 제조·청년 주거를 연결한 90일 기술정착 정책 제안입니다. [사례·공식 근거](../case-studies/j-shift-90.md)
 
-**Build Beyond Hackathon · FitShadow · Top 20 Finalists(2026.09)**. 개발 해커톤의 파이널리스트 선정 이력입니다.
+**International AI Awards 2026 · Best AI Art Silver Prize(2026.11)** — 「The Weather Archive」. 전자상장과 주최 측 수상 통지를 확인했습니다. [수상 근거](ACHIEVEMENTS.md)\n\n**Build Beyond Hackathon · FitShadow · Top 20 Finalists(2026.09)**. 개발 해커톤의 파이널리스트 선정 이력입니다.
 
 ## 학력과 근무 조건
 
@@ -58,7 +58,7 @@ Codex의 설계·구현·테스트·문서 지원을 받아 만든 한·영 OCR 
 
 | 시기 | 구분 | 결과 |
 |---|---|---|
-| **2026.10** | **정책 제안 수상** | **전주시 2026 인구혁신 프로젝트 시민 정책 제안 공모 최우수상(전주시장상) · J-Shift 90** |
+| **2026.11** | **국제 AI 아트 수상** | **International AI Awards 2026 · Best AI Art · Silver Prize** — The Weather Archive |\n| **2026.10** | **정책 제안 수상** | **전주시 2026 인구혁신 프로젝트 시민 정책 제안 공모 최우수상(전주시장상) · J-Shift 90** |
 | 2026.09 | 개발 해커톤 | Build Beyond Hackathon · FitShadow · **Top 20 Finalists** |
 | 2026.07 | 플랫폼 심사 | 앱인토스 「싸괄」 **20260703-3** · 「대신」 **20260718-7 버전 승인** |
 | 2026.08 | 아이디어 수상 | 코레일유통 대국민 아이디어 공모전 수상 |
@@ -69,5 +69,5 @@ Codex의 설계·구현·테스트·문서 지원을 받아 만든 한·영 OCR 
 
 기타 심사선정과 교육생 선발은 [전체 근거](ACHIEVEMENTS.md)에 기재했습니다. 개인·학교 프로젝트의 담당과 검증 범위는 각 사례에서 확인할 수 있습니다.
 
-공개판 · 2026-11-06 · [AI 활용과 기여 기준](EVIDENCE.md)
+공개판 · 2026-11-21 · [AI 활용과 기여 기준](EVIDENCE.md)
 
