@@ -50,8 +50,9 @@ AI 보조 구현·검증 자료 정리. CSV의 SKU·지역별 수량 차이, 입
 
 [사례](../case-studies/company-workbench.md) · [소스](https://github.com/estona815/contextpatch-ai-datahub-2026/tree/portfolio/company-workbench-20260929/employer-workbench)
 
-## 수상·입선
+## 수상·입선·당선
 
+- **2026.11** 여성긴급전화1366 세종센터 · 2026년 여성폭력 추방주간 기념 AI 콘텐츠 공모전 — **당선**. 개별 문자 통지 확인, 세부 상격 미확인.
 - **2026.11** International AI Awards 2026 — **Best AI Art · Silver Prize (Silver Winner)**, 「The Weather Archive」. 주최 측 상장·수상 통지 확인.
 - **2026.10** 전주시 2026 인구혁신 프로젝트 시민 정책 제안 공모 — **최우수상(전주시장상)**, 「J-Shift 90」.
 - **2026.10** 수성 건축·조경 시각작품 국제 공모전 — 일반 부문 장려상.
@@ -74,4 +75,4 @@ AI 보조 구현·검증 자료 정리. CSV의 SKU·지역별 수량 차이, 입
 
 ---
 
-공개판 · 2026-11-21. 프로젝트별 담당과 검증 범위, AI 사용은 [증거 기준](EVIDENCE.md)과 각 사례에 기재했습니다.
+공개판 · 2026-11-26. 프로젝트별 담당과 검증 범위, AI 사용은 [증거 기준](EVIDENCE.md)과 각 사례에 기재했습니다.
