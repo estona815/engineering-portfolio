@@ -24,6 +24,7 @@
 
 | 보여드릴 역량 | 프로젝트에서 확인할 동작 | 바로 보기 |
 |---|---|---|
+| **공익 AI 콘텐츠** | **여성긴급전화1366 세종센터 · 2026년 여성폭력 추방주간 기념 AI 콘텐츠 공모전 당선** (2026.11.25 개별 통지, 세부 상격 미확인) |
 | 결함 재현과 수정 확인 | 같은 입력으로 결함 함수와 수정 함수를 비교하고, 현재 관측한 실패를 보고서로 기록 | [Company Workbench](case-studies/company-workbench.md) |
 | 원본 대조와 수정 내용 보존 | OCR 원문·수정문·검토 상태를 연결하고, 새 OCR 요청 실패 시 이전 교정 유지 | [GlyphCheck](case-studies/glyphcheck.md) |
 | 장치의 상태와 예외 설명 | 정상 배출·걸림·재시도를 전환하며 상태와 이벤트 로그 확인 | [NUTRONICS](case-studies/nutronics.md) |
@@ -75,7 +76,8 @@
 
 | 분야 | 확인된 결과 |
 |---|---|
-| **국제 AI 아트 수상** | **International AI Awards 2026 · Best AI Art · Silver Prize / Silver Winner** — The Weather Archive (2026.11.21) |\n| **정책 제안 수상** | **전주시 2026 인구혁신 프로젝트 시민 정책 제안 공모 최우수상(전주시장상) · J-Shift 90** |
+| **국제 AI 아트 수상** | **International AI Awards 2026 · Best AI Art · Silver Prize / Silver Winner** — The Weather Archive (2026.11.21) |
+| **정책 제안 수상** | **전주시 2026 인구혁신 프로젝트 시민 정책 제안 공모 최우수상(전주시장상) · J-Shift 90** |
 | 개발 해커톤 | **Build Beyond Hackathon · FitShadow · Top 20 Finalists** |
 | 플랫폼 심사 | **앱인토스 「싸괄」·「대신」 앱 버전 승인** |
 | 아이디어 | **코레일유통 2026 대국민 아이디어 공모전 수상** |
@@ -102,5 +104,5 @@
 
 </details>
 
-문서 갱신: 2026-11-21 · 기술 테스트의 실행일·범위는 각 검증 기록에 따릅니다.
+문서 갱신: 2026-11-26 · 기술 테스트의 실행일·범위는 각 검증 기록에 따릅니다.
 
